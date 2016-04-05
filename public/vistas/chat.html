@@ -1,0 +1,43 @@
+<section class="chat-body" ng-init="inicio()">
+	
+	<div class="chat-header" ng-click="detalle = !detalle">
+		<div class="text-center">
+			<h4>¿Tienes Dudas o Preguntas? <span class="notificacion"><i class="glyphicon glyphicon-comment"></i></span></h4>
+		</div>
+	</div>
+
+	<div class="chat-content" ng-show="detalle">
+		
+		<div class="chat-info text-center" ng-hide="chat">
+			<h4>Ingresa tu nombre</h4>
+			<input type="text" placeholder="Nombre" class="contact2-textbox" ng-model="usuario" name="subject">
+			<section>
+				<button class="dept-details-butt medium-but" ng-click="iniciaChat()"><i class="fa fa-comment inner-page-butt-blue-icon"></i>Iniciar Chat</button>
+			</section>
+		</div>
+	
+		<div class="chat-messages" ng-show="chat">
+			<div class="messages-header">
+				<ul>
+	              	<li>
+	              		<a><i class="fa fa-user-md dept-tabs-icon"></i><span class="tabs-heads">Escribe tus dudas o preguntas.</span></a>
+	              		<a href="" ng-click="cerrarSesion()">Cerrar Sesion</a>
+	              	</li>
+	          	</ul>
+			</div>
+			<ul class="message-body js-chat-list">
+		        <li data-ng-repeat="dato in mensajes" ng-class="{'bubbledLeft':usuario ==  dato.from,'bubbledRight':usuario !=  dato.from}"> <strong>{{ dato.from }}</strong> : {{ dato.content }}</li>
+	      	</ul>
+			<div class="messages-footer">
+				<form ng-submit="enviaMensaje()">
+					<input id="m" autocomplete="off" placeholder="Mensaje" ng-model="mensaje"/><button type="submit" class="btn btn-default">Enviar</button>
+				</form>
+			</div>
+			
+		</div>
+
+	</div>
+
+
+
+</section>
