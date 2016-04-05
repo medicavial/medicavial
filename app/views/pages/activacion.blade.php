@@ -1,4 +1,4 @@
-@extends('layouts.default')
+@extends('layouts.error')
 
 @section('titulo')
     MedicaVial - Membresia Activada 
@@ -17,7 +17,7 @@
 		    <div class="bread-crumb-wrap ibc-wrap-4">
 		    	<div class="container">
 		         	<div class="inner-page-title-wrap col-xs-12 col-md-12 col-sm-12">
-		            	<div class="bread-heading"><h1>Tu Membesia Sergio Alcala ha sido activad</h1></div>
+		            	<div class="bread-heading"><h1> <strong>{{ $membresia->mem_nombre }}</strong> Tu Membesia ha sido activada!!!</h1></div>
 		            </div>
 		        </div>
 		    </div> 
@@ -31,7 +31,7 @@
 
 						<div class="col-xs-12 col-sm-4 col-md-6 col-lg-6 no-pad">
 
-							<img class="img-responsive pull-left" alt="" src="images/membresia.png"/>
+							<img class="img-responsive pull-left" alt="" src="{{ URL::asset('images/membresia.png') }}"/>
 
 						</div>
 

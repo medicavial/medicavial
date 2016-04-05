@@ -18,7 +18,27 @@ Route::get('/', array('as' => 'inicio', function()
 }));
 
 
-Route::get('/activacion/{id}', array('uses' => 'BaseController@activacion'));
+Route::get('activacion/{membresia}', array('as' => 'activacion', function($membresia) {
+    
+    $datos = Membresia::find($membresia);
+    
+    $activada = $datos->mem_activo;
+
+    if ($activada == '0') {
+
+        $datos->mem_activo = 1;
+        $datos->save();
+        return View::make('pages.activacion')->with('membresia', $datos);
+
+    }else{
+
+        return Redirect::to('membresia');
+
+    }
+
+})); 
+
+
 
 
 Route::get('/clinicas', array('as' => 'clinicas', function()

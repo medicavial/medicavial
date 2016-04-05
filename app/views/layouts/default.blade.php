@@ -6,7 +6,7 @@
 </head>
 <body>
     
-    <div id="loader-overlay"><img src="images/loader1.gif" alt="Loading" /></div>
+    <div id="loader-overlay"><img src="{{ URL::asset('images/loader1.gif') }}" alt="Loading" /></div>
 
     <header>
         @include('includes.header')

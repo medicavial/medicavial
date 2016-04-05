@@ -19,7 +19,7 @@ class BaseController extends Controller {
 
         $membresia = Membresia::find($id);
 
-        return View::make('pages.activacion');
+        return View::make('pages.activacion')->with($membresia);
 
     }
 
