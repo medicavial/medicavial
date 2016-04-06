@@ -22,9 +22,9 @@ Route::get('activacion/{membresia}', array('as' => 'activacion', function($membr
     
     $datos = Membresia::find($membresia);
     
-    $activada = $datos->mem_activo;
+    $activada = Membresia::find($membresia)->mem_activo;
 
-    if ($activada == '0') {
+    if ( (int)$activada == 0 ) {
 
         $datos->mem_activo = 1;
         $datos->save();

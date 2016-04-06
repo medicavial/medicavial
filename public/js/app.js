@@ -327,28 +327,34 @@ function membresiaCtrl($scope,$location,$http) {
     $scope.nombreMembresia = '';
     $scope.cargadorMem = false;
 
-    $scope.membresia = {
-        nombre:'',
-        apanterno:'',
-        amaterno:'',
-        email:'',
-        telefono:'',
-        codPos:'',
-        obs:'',
-        unidad:''
+    $scope.inicio = function(){
+
+        $scope.membresia = {
+            nombre:'',
+            apanterno:'',
+            amaterno:'',
+            email:'',
+            telefono:'',
+            codPos:'',
+            obs:'',
+            unidad:''
+        }
+
+        $scope.referencia = {
+            nombre:'',
+            email:'',
+            telefono:'',
+            parentezco:''
+        }
+
+        $scope.veTabla = false; 
+        $scope.sumaReferencia = [] ;  
+
+        var cont = 1;
+
     }
 
-    $scope.referencia = {
-        nombre:'',
-        email:'',
-        telefono:'',
-        parentezco:''
-    }
 
-    $scope.veTabla = false; 
-    $scope.sumaReferencia = [] ;  
-
-    var cont = 1;
 
     $scope.veTabla = false;
 
@@ -356,7 +362,7 @@ function membresiaCtrl($scope,$location,$http) {
 
         if($scope.referenciasForm.$valid){
 
-            console.log('entro');  
+            // console.log('entro');  
 
             if($scope.referencia.nombre !=''){  
 
@@ -396,9 +402,10 @@ function membresiaCtrl($scope,$location,$http) {
     $scope.crearMembresia = function(){ 
 
         // console.log($scope.membresiaForm.$valid);
-        $scope.validar=false;
-        $('#botonMem').button('loading');
+        $scope.validar = false;
         if($scope.membresiaForm.$valid){
+            
+            $('#botonMem').button('loading');
 
             $scope.cargadorMem = true; 
             $scope.mensaje = ''; 
@@ -409,6 +416,7 @@ function membresiaCtrl($scope,$location,$http) {
             .success( function (data){   
                 $scope.mensaje = data;
                 $('#botonMem').button('reset');
+                $scope.inicio();
             }).error( function (xhr,status,data){  
                 alert('Algo salio mal verifica tu conexión e intentalo nuevamente por favor');
                 $('#botonMem').button('reset');

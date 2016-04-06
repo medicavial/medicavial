@@ -10,7 +10,7 @@
 
 @section('content')
 
-	<div id="contact-version-two" ng-controller="membresiaCtrl">
+	<div id="contact-version-two" ng-controller="membresiaCtrl" ng-init="inicio()">
     
 	    <div class="about-intro-wrap pull-left">
 	     
