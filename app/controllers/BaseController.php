@@ -43,7 +43,7 @@ class BaseController extends Controller {
                 //$message->from($data['email'] , $data['first_name']); uncomment if using first name and email fields 
                 $message->from( $datos['correo'], $datos['nombres']);
                 //email 'To' field: cahnge this to emails that you want to be notified.                    
-                $message->to('salcala@medicavial.com.mx', 'Sergio Alcala')->subject('Comentarios MV.com');
+                $message->to('chatmv@medicavial.com.mx', 'Contacto MédicaVial')->subject('Comentarios MV.com');
 
             });
 
@@ -85,7 +85,7 @@ class BaseController extends Controller {
                 //$message->from($data['email'] , $data['first_name']); uncomment if using first name and email fields 
                 $message->from( $datos['correo'], $datos['nombre']);
                 //email 'To' field: cahnge this to emails that you want to be notified.                    
-                $message->to('salcala@medicavial.com.mx', 'Sergio Alcala')->subject('Cita MV.com');
+                $message->to('chatmv@medicavial.com.mx', 'Cita MédicaVial')->subject('Cita MV.com');
 
             });
 
@@ -199,7 +199,7 @@ class BaseController extends Controller {
         Mail::send('emails.membresia', $datosMail, function($message) use ($datosMem)
         {
             //$message->from($data['email'] , $data['first_name']); uncomment if using first name and email fields 
-            $message->from('salcala@medicavial.com.mx', 'Sergio Alcala');
+            $message->from('chatmv@medicavial.com.mx', 'Membresia MeédicaVial');
 			//email 'To' field: cahnge this to emails that you want to be notified.                    
 			$message->to( $datosMem['email'],$datosMem['nombre'])->subject('Bienvenido a la membresia MédicaVial');
 

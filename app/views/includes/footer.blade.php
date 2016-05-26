@@ -29,6 +29,7 @@
             	<div class="foot-widget-title">Responsable:</div>
             	<ul>
                 	<li>Dr. Sergio Cisneros Mora (U.N.A.M.) Ced. 5461210.</li>
+                    <li>Aut.Cof. 153300201A3138</li>
                 </ul>
             </div>
             
