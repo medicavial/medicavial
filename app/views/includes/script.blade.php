@@ -1,5 +1,5 @@
 <script type="text/javascript" src="{{ asset('js/jquery.min.js')}}"></script>
-<script type="text/javascript" src="{{ asset('js/jquery-ui-1.10.3.custom.min.js')}}"></script>  
+<script type="text/javascript" src="{{ asset('js/jquery-ui-1.10.3.custom.min.js')}}"></script>
 <script type="text/javascript" src="{{ asset('bootstrap-new/js/bootstrap.min.js')}}"></script>
 <script type="text/javascript" src="{{ asset('rs-plugin/js/jquery.themepunch.tools.min.js')}}"></script>
 <script type="text/javascript" src="{{ asset('rs-plugin/js/jquery.themepunch.revolution.min.js')}}"></script>
@@ -29,4 +29,13 @@
 		$('#loader-overlay').fadeOut(500);
 		$("html").css("overflow","visible");
 	});
+
+	function entraPrice(id){
+		// var elemento = document.getElementById('priceTab'+id);
+		// elemento.classList.add('price-table-big');
+	}
+	function salePrice(id){
+		// var elemento = document.getElementById('priceTab'+id);
+		// elemento.classList.remove('price-table-big');
+	}
 </script>

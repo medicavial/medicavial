@@ -12,7 +12,7 @@
 
 .c_5{
 	background: #fefefe;
-	
+
 }
 
 .navbar .nav {
@@ -70,7 +70,7 @@ element.style {
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
 -webkit-box-shadow: none !important;
 -moz-box-shadow: none !important;
-box-shadow: none !important; 
+box-shadow: none !important;
 }
 
 .navbar .nav > li {

@@ -1,7 +1,7 @@
 @extends('layouts.default')
 
 @section('titulo')
-    MedicaVial 
+    MedicaVial
 @stop
 
 @section('descripcion')
@@ -11,11 +11,11 @@
 @section('content')
 	<div class="container full-width-container ihome-banner">
 		<div class="banner col-sm-12 col-xs-12 col-md-12">
-	    	
+
 	        <ul>
 				<!-- memebresia -->
 	        	<li data-transition="papercut" data-slotamount="7">
-	           
+
 	                <!-- MAIN IMAGE -->
 	                <img src="images/new-slider/s1-bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 	                <!-- LAYERS -->
@@ -31,7 +31,7 @@
 	                    data-endeasing="Power1.easeIn"
 	                    ><img src="images/new-slider/membresia.png" alt="" class="img-responsive">
 	                </div>
-	                
+
 	                <!-- LAYER NR. 5 -->
 	                <div class="tp-caption bluebg-t1 sfr skewtoright imed-sl1 hidden-xs"
 	                    data-x="600"
@@ -70,7 +70,7 @@
 	                    data-endspeed="400"
 	                    data-endeasing="Power1.easeIn"
 	                    ><a href="{{ URL::route('membresia') }}">Obtener Membresia</a></div>
-	                
+
 	            </li>
 
 	            <!-- lider -->
@@ -92,8 +92,8 @@
 	                    ><img src="images/second.png" alt="" class="img-responsive">
 	                </div>
 
-	                
-	                
+
+
 	                <!-- LAYER NR. 6 -->
 	                <div class="tp-caption whitebg-t1 sfr skewtoright imed-sl1 hidden-xs"
 	                    data-x="600"
@@ -126,7 +126,7 @@
 
 	            <!-- Formatos -->
 	            <li data-transition="papercut" data-slotamount="7">
-                       
+
                     <!-- MAIN IMAGE -->
                     <img src="images/new-slider/s1-bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                     <!-- LAYERS -->
@@ -156,7 +156,7 @@
                         ><img src="images/new-slider/s4-img10.png" alt="" class="img-responsive">
                     </div> -->
 
-                    
+
 
                     <!-- LAYER NR. 4 -->
                     <div class="tp-caption lft skewtoright imed-sl1"
@@ -170,7 +170,7 @@
                         data-endeasing="Power1.easeIn"
                         ><img src="images/new-slider/s4-img7.png" alt="" class="img-responsive">
                     </div>
-                    
+
                     <!-- LAYER NR. 5 -->
                     <div class="tp-caption bluebg-t1 sfr skewtoright imed-sl1 hidden-xs"
                         data-x="650"
@@ -210,9 +210,9 @@
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
                         ><a href="{{ URL::route('clinicas') }}">Mas Info.</a></div>
-                    
-                </li> 
-				
+
+                </li>
+
 				<!-- iconos -->
                 <li data-transition="papercut" data-slotamount="7">
 
@@ -313,7 +313,7 @@
                         data-endeasing="Power1.easeIn"
                         ><img src="images/new-slider/s3-ic9.png" alt="" class="img-responsive">
                     </div>
-                    
+
                     <div class="tp-caption lft stt imed-sl1"
                         data-x="left"
                         data-y="108"
@@ -382,8 +382,8 @@
                         ><img src="images/new-slider/s3-ic16.png" alt="" class="img-responsive">
                     </div> -->
 
-                    
-                    
+
+
                     <!-- LAYER NR. 6 -->
                     <div class="tp-caption whitebg-t1 sfr skewtoright imed-sl1 hidden-xs"
 	                    data-x="600"
@@ -437,13 +437,13 @@
 	                    data-endeasing="Power1.easeIn"
 	                    ><a href="{{ URL::route('membresia') }}">Servicios</a>
 	                </div>
-                          
+
 
                 </li>
 
                 <!-- clinicas -->
 	        	<li data-transition="papercut" data-slotamount="7">
-                       
+
                     <!-- MAIN IMAGE -->
                     <img src="images/new-slider/s1-bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                     <!-- LAYERS -->
@@ -475,8 +475,8 @@
                     </div>
 
                     <!-- LAYER NR. 3 -->
-                    
-                    
+
+
                     <!-- LAYER NR. 5 -->
                     <div class="tp-caption bluebg-t1 sfr skewtoright imed-sl1 hidden-xs"
                         data-x="615"
@@ -531,20 +531,20 @@
                         data-endeasing="Power1.easeIn"
                         ><a href="{{ URL::route('clinicas') }}">Nuestras Clinicas</a>
                     </div>
-                    
-                    
-                </li> 
-				
+
+
+                </li>
+
 	        </ul>
-	        
+
 	    </div>
 	</div>
 
 	<!--Icon Boxes 1-->
     <div class="container">
     	<div class="row">
-	    	<div class="no-pad icon-boxes-1"> 
-	            
+	    	<div class="no-pad icon-boxes-1">
+
 	            <!--Icon-box-start-->
 	            <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
 					<div class="icon-box-3 wow fadeInDown" data-wow-delay="0.6s" data-wow-offset="150">
@@ -552,9 +552,9 @@
 						<div class="icon-box2-title">Nuestras Clinicas</div>
 						<p>Servicio 24 Hrs.</p>
 						<div class="iconbox-readmore"><a href="{{ URL::route('clinicas') }}">Más Info.</a></div>
-					</div>   
+					</div>
 	            </div>
-	            
+
 	            <!--Icon-box-start-->
 	            <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
 					<div class="icon-box-3 wow fadeInUp" data-wow-delay="0.9s" data-wow-offset="150">
@@ -562,7 +562,7 @@
 						<div class="icon-box2-title">Una Vida Saludable</div>
 						<p>Consejos, tips y más</p>
 						<div class="iconbox-readmore"><a href="https://medicavial.wordpress.com/">Ir al Blog.</a></div>
-					</div>   
+					</div>
 	            </div>
 
 	            <!--Icon-box-start-->
@@ -572,9 +572,9 @@
 						<div class="icon-box2-title">Nuestros Médicos</div>
 						<p>Medicos especialistas certificados.</p>
 						<div class="iconbox-readmore"><a href="{{ URL::route('doctores') }}">Más Info.</a></div>
-					</div>   
+					</div>
 	            </div>
-	            
+
 	            <!--Icon-box-start-->
 	            <!-- <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
 					<div class="icon-box-3 notViewed wow fadeInUp" data-wow-delay="1.5s" data-wow-offset="150">
@@ -585,7 +585,7 @@
 							<li>Saturday <span class="ibox-right-span">8.00  - 16.00</span></li>
 							<li>Sunday <span class="ibox-right-span">8.00 - 13.00</span></li>
 						</ul>
-					</div>   
+					</div>
 	            </div> -->
 
 	            <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
@@ -594,69 +594,89 @@
 						<div class="icon-box2-title">Nuestros Paquetes</div>
 						<p>Al servicio de tu salud.</p>
 						<div class="iconbox-readmore"><a href="{{ URL::route('nosotros') }}">Más Info.</a></div>
-					</div>   
+					</div>
 	            </div>
-	        
 	        </div>
         </div>
 
+        <br><br><br><br>
+
         <div class="row">
-            
-            <div class="col-md-12 col-xs-12 col-sm-12 pull-left subtitle ibg-transparent">Nuestros Paquetes</div>
-            
-            	
-            	<div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 price-table-wrap pull-left">    
-                     
-                     <!--Prising table-->  
-                    <div class="col-md-3 col-sm-6 col-lg-4 col-xs-12 no-pad">
-                        <div class="price-table wow fadeInUp iprice-no-right-border" data-wow-delay="0.5s" data-wow-offset="10">
-                            <div class="price-figure"><div class="price-semi-circle"></div></div>
-                            <div class="price-plan"><div class="price-plan-title">Básico</div></div>
+            <div class="col-md-12 col-xs-12 col-sm-12 pull-left subtitle ibg-transparent">Nuestros Servicios</div>
+            	<div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 price-table-wrap pull-left">
+
+                     <!--Prising table-->
+                    <div class="col-md-3 col-sm-6 col-xs-12 no-pad">
+                        <div class="price-table completo wow bounceIn iprice-no-right-border" data-wow-delay="0.5s" data-wow-offset="10" id="priceTab1"
+                              onmouseover="entraPrice(1)" onmouseout="salePrice(1)">
+                            <div class="price-figure"><i class="fa fa-star" aria-hidden="true"></i><div class="price-semi-circle"></div></div>
+                            <div class="price-plan"><div class="price-plan-title">Consulta<br>Médica</div></div>
                             <ul>
-                            <li class="dark-bg">Consulta</li>
+                            <!-- <li class="dark-bg">Consulta</li>
                             <li>Diagnostico</li>
                             <li class="dark-bg">2 Radiografias</li>
-                            <li>aplicación de medicamento</li> 
+                            <li>aplicación de medicamento</li> -->
+                            <li><a href="./cita">Agenda tu cita</a> </li>
                             <li><a href="#"><div class="learn-more">Saber Más</div></a></li>
                             </ul>
                         </div>
                     </div>
-                
                 <!--Prising table-->
-                
+
                    <!--Prising table-->
-            	          
-                    <div class="col-md-3 col-sm-6 col-lg-4 col-xs-12 no-pad">
-                        <div class="price-table price-table-big wow bounceIn" data-wow-delay="1.0s" data-wow-offset="10">
-                            <div class="price-figure"><div class="price-semi-circle-premium"></div></div>
-                            <div class="price-plan"><div class="price-plan-title">Lesiones Deportivas</div></div>
+                    <!-- price-table-big -->
+                    <div class="col-md-3 col-sm-6 col-xs-12 no-pad">
+                        <div class="price-table completo wow bounceIn" data-wow-delay="1.0s" data-wow-offset="10" id="priceTab2"
+                              onmouseover="entraPrice(2)" onmouseout="salePrice(2)">
+                            <div class="price-figure"><i class="fa fa-star" aria-hidden="true"></i><div class="price-semi-circle-premium"></div></div>
+                            <div class="price-plan"><div class="price-plan-title">Rayos<br>X</div></div>
                             <ul>
-                            <li class="dark-bg">Consulta</li>
+                            <!-- <li class="dark-bg">Consulta</li>
                             <li>Diagnostico</li>
                             <li class="dark-bg">3 radiografias</li>
-                            <li>aplicación de medicamento</li> 
+                            <li>aplicación de medicamento</li> -->
+                            <li><a href="./cita">Agenda tu cita</a> </li>
                             <li><a href="#"><div class="learn-more">Saber Más</div></a></li>
                             </ul>
                         </div>
                     </div>
-                
                 <!--Prising table-->
-                
-                            	<!--Prising table-->
-            	    <div class="col-md-3 col-sm-6 col-lg-4 col-xs-12 no-pad">
-                        <div class="price-table wow fadeInUp iprice-no-right-border" data-wow-delay="0.5s" data-wow-offset="10">
-                            <div class="price-figure"><div class="price-semi-circle"></div></div>
-                            <div class="price-plan"><div class="price-plan-title">Rehabilitaciones</div></div>
+
+                <!--Prising table-->
+                 <!-- price-table-big -->
+                 <div class="col-md-3 col-sm-6 col-xs-12 no-pad">
+                     <div class="price-table completo wow bounceIn" data-wow-delay="1.0s" data-wow-offset="10" id="priceTab3"
+                          onmouseover="entraPrice(3)" onmouseout="salePrice(3)">
+                         <div class="price-figure"><i class="fa fa-star" aria-hidden="true"></i><div class="price-semi-circle-premium"></div></div>
+                         <div class="price-plan"><div class="price-plan-title">Procedimientos<br>Médicos</div></div>
+                         <ul>
+                         <!-- <li class="dark-bg">Consulta</li>
+                         <li>Diagnostico</li>
+                         <li class="dark-bg">3 radiografias</li>
+                         <li>aplicación de medicamento</li> -->
+                         <li><a href="./cita">Agenda tu cita</a> </li>
+                         <li><a href="#"><div class="learn-more">Saber Más</div></a></li>
+                         </ul>
+                     </div>
+                 </div>
+             <!--Prising table-->
+
+                <!--Prising table-->
+            	    <div class="col-md-3 col-sm-6 col-xs-12 no-pad">
+                        <div class="price-table completo wow bounceIn iprice-no-right-border" data-wow-delay="1.0s" data-wow-offset="10" id="priceTab4"
+                              onmouseover="entraPrice(4)" onmouseout="salePrice(4)">
+                            <div class="price-figure"><i class="fa fa-star" aria-hidden="true"></i><div class="price-semi-circle"></div></div>
+                            <div class="price-plan"><div class="price-plan-title">Paquetes de<br>Rehabilitación</div></div>
                             <ul>
-                            <li class="dark-bg">5 sesiones</li>
+                            <!-- <li class="dark-bg">5 sesiones</li>
                             <li>Diagnostico</li>
                             <li class="dark-bg">2 Radiografias</li>
-                            <li>aplicación de medicamento</li> 
-                            <li><a href="#"><div class="learn-more">Saber Más</div></a></li>
+                            <li>aplicación de medicamento</li> -->
+                            <li><a href="./cita">Agenda tu cita</a> </li>
+                            <li><a href=""><div class="learn-more" data-toggle="modal" data-target="#modalRh">Saber Más</div></a></li>
                             </ul>
                         </div>
                     </div>
-                     
                     <!-- <div class="col-md-3 col-sm-6 col-lg-4 col-xs-12 no-pad">
                         <div class="price-table wow fadeInDown iprice-no-right-border" data-wow-delay="0.5s" data-wow-offset="10">
                             <div class="price-figure">$2,500<div class="price-semi-circle"></div></div>
@@ -667,16 +687,16 @@
                             </ul>
                         </div>
                     </div> -->
-                
+
                 <!--Prising table-->
-                
+
                             	<!--Prising table-->
-            	           
-                
+
+
                 <!--Prising table-->
-                
+
                 </div>
-            
+
             </div>
 
             <div class="somos wow fadeInUp" data-wow-delay="1.0s" data-wow-offset="10">
@@ -691,4 +711,34 @@
 
 
     </div><!--Icon Boxes 1 end-->
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalRh" tabindex="2" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Tipos de Rehabilitación</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-12">
+                <h5><i class="fa fa-check azul" aria-hidden="true"></i> ULTRASONIDO TERAPÉUTICO</h5>
+                <h5><i class="fa fa-check azul" aria-hidden="true"></i> LÁSER TERAPÉUTICO</h5>
+                <h5><i class="fa fa-check azul" aria-hidden="true"></i> LUZ INFRAROJA</h5>
+                <h5><i class="fa fa-check azul" aria-hidden="true"></i> APLICACIÓN DE PARAFINA</h5>
+                <h5><i class="fa fa-check azul" aria-hidden="true"></i> TRACCIÓN CERVICAL</h5>
+                <h5><i class="fa fa-check azul" aria-hidden="true"></i> MASOTERAPIA</h5>
+                <h5><i class="fa fa-check azul" aria-hidden="true"></i> HIDROTERAPIA LOCALIZADA</h5>
+                <h5><i class="fa fa-check azul" aria-hidden="true"></i> ELECTROESTIMULACIÓN</h5>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
 @stop

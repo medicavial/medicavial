@@ -1,4 +1,4 @@
-         
+
 <div class="header-bg">
 
     <div id="search-overlay">
@@ -8,11 +8,11 @@
 			<input id="display-search" type="text" placeholder="Start Typing..." autofocus autocomplete="off" /> <!--mirrored input that shows the actual input value-->
 		</div>
     </div>
-   
-    	
+
+
     <!--Topbar-->
-    <div class="topbar-info no-pad">                    
-        <div class="container">                     
+    <div class="topbar-info no-pad">
+        <div class="container">
             <div class="social-wrap-head col-md-2 no-pad">
                 <ul>
                 <!-- <li><a href="https://www.facebook.com/medicavial"><i class="icon-facebook head-social-icon" id="face-head" data-original-title="" title=""></i></a></li> -->
@@ -21,16 +21,16 @@
                 <li><a href="#"><i class="icon-linkedin head-social-icon" id="link-head" data-original-title="" title=""></i></a></li>
                 <li><a href="#"><i class="icon-rss head-social-icon" id="rss-head" data-original-title="" title=""></i></a></li> -->
                 </ul>
-            </div>                            
+            </div>
             <div class="top-info-contact pull-right col-md-6">
                 Llamanos! (01) 800 3 MEDICA(633422)
                 <!-- <div id="search" class="fa fa-search search-head"></div> -->
-            </div>                      
+            </div>
         </div>
     </div><!--Topbar-info-close-->
-        
+
     <div id="headerstic">
-        
+
         <div class=" top-bar container">
         	<div class="row">
                 <nav class="navbar navbar-default" role="navigation">
@@ -46,7 +46,7 @@
 
                             <a href="{{ URL::route('inicio') }}"><div class="logo"></div></a>
                         </div>
-                
+
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     						<ul class="nav navbar-nav navbar-right">
@@ -108,14 +108,14 @@
                                         <li><a href="{{ URL::route('cita') }}">Agenda tu Cita</a></li>
                                     </ul>
                                 </li>
-                                
+
                                 <li><a href="https://medicavial.wordpress.com/"><i class="icon-pencil"></i>Blog</a>
                                     <!-- <ul class="dropdown-menu">
                                     	<li class="dropdown left-dropdown"><a href="#">Blog Masonry</a>
     										<ul class="dropdown-menu">
     											<li><a href="blog-masonry-full-width.html">Full Width</a></li>
     		                                    <li><a href="blog-masonry-left-sidebar.html">Left Sidebar</a></li>
-    		                                    <li><a href="blog-masonry-right-sidebar.html">Right Sidebar</a></li> 
+    		                                    <li><a href="blog-masonry-right-sidebar.html">Right Sidebar</a></li>
     		                                </ul>
     		                            </li>
     		                            <li class="dropdown left-dropdown"><a href="#">Blog Medium Image</a>
@@ -131,7 +131,7 @@
     											<li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
     											<li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
     		                                </ul>
-    		                            </li>					
+    		                            </li>
     									<li><a href="blog-with-slider.html">Blog With Slider</a></li>
     									<li class="dropdown left-dropdown"><a href="#">Blog Single Post</a>
     										<ul class="dropdown-menu">
@@ -140,10 +140,10 @@
     											<li><a href="blog-video-post.html">Video Post</a></li>
     											<li><a href="blog-full-width-post.html">Full Width Post</a></li>
     		                                </ul>
-    		                            </li>	
+    		                            </li>
                                     </ul> -->
                                 </li>
-                                
+
                                 <li><a href="{{ URL::route('contacto') }}"><i class="icon-envelope"></i>Contacto</a>
                                     <!-- <ul class="dropdown-menu">
                                         <li><a href="contact-1.html">Contact Version 1</a></li>
@@ -183,11 +183,11 @@
 
                             </ul>
                         </div><!-- /.navbar-collapse -->
-                    
-                    
+
+
                         <div class="hide-mid collapse navbar-collapse option-drop" id="bs-example-navbar-collapse-2">
-                          
-                          
+
+
                             <ul class="nav navbar-nav navbar-right other-op">
                                 <li><i class="icon-phone2"></i>(55) 55-14-47-00 </li>
                                 <li><i class="icon-mail"></i><a href="#" class="mail-menu">contacto@medicavial.com.mx</a></li>
@@ -200,23 +200,23 @@
                                 <div class="search-wrap"><input type="text" id="search-text" class="search-txt" name="search-text">
                                 <button id="searchbt" name="searchbt" class="icon-search search-bt"></button></div>
                                 </li> -->
-                            
+
                             </ul>
 
                         </div><!-- /.navbar-collapse -->
-                    
+
                         <div class="hide-mid collapse navbar-collapse cart-drop" id="bs-example-navbar-collapse-3">
                             <ul class="nav navbar-nav navbar-right">
                                 <li><a href="#"><i class="icon-cart"></i>0 item(s) - $0.00</a></li>
                                 <li><a href="#"><i class="icon-user"></i>My Account</a></li>
                             </ul>
                         </div><!-- /.navbar-collapse -->
-                    
+
                     </div><!-- /.container-fluid -->
                 </nav>
-        	</div>    
+        	</div>
         </div><!--Topbar End-->
-    
+
     </div>
-              
+
 </div>
