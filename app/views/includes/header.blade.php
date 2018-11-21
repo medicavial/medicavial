@@ -23,7 +23,7 @@
                 </ul>
             </div>
             <div class="top-info-contact pull-right col-md-6">
-                Llamanos! (01) 800 3 MEDICA(633422)
+                ¡Llamanos! <a href="tel:018003633422" class="link-tel">01 800 3 MEDICA(633422)</a>
                 <!-- <div id="search" class="fa fa-search search-head"></div> -->
             </div>
         </div>

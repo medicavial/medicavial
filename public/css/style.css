@@ -16,7 +16,7 @@
 }
 
 .contact2-textarea {
-     height: 104px; 
+     height: 104px;
 }
 
 .contact2-page-form .btn {
@@ -24,8 +24,8 @@
 }
 
 .uib-timepicker input {
-    padding-left: 0px !important; 
-    padding-right: 0px !important; 
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open .dropdown-toggle.btn-info {
@@ -126,7 +126,7 @@
 	width: 100%;
 	box-sizing: border-box;
 	overflow-y: scroll;
-	overflow-x: hidden; 
+	overflow-x: hidden;
 }
 
 
@@ -177,5 +177,26 @@
     content: "";
 }
 
+.info-somos{
+	background-color: #f8f8f8 !important;
+}
 
+.info-somos > .titulo{
+   background-color: #107fc9 !important;
+   color: #fff !important;
+}
+
+.info-somos > .box > ul li::before {
+    content: "•"; /* Insert content that looks like bullets */
+    padding-right: 5px;
+    color: #107fc9; /* Or a color you prefer */
+}
+
+.link-tel,
+.link-tel:link,
+.link-tel:hover,
+.link-tel:active,
+.link-tel:visited, {
+	text-decoration: none;
+}
 /* termina etstilo del chat */

@@ -459,7 +459,7 @@
                         data-easing="Power4.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><img src="images/new-slider/colage_fotos-01.png" alt="" class="img-responsive">
+                        ><img src="images/new-slider/1.png" alt="" class="img-responsive">
                     </div>
 
                     <div class="tp-caption lft skewtoright imed-sl1"
@@ -609,7 +609,7 @@
                     <div class="col-md-3 col-sm-6 col-xs-12 no-pad">
                         <div class="price-table completo wow bounceIn iprice-no-right-border" data-wow-delay="0.5s" data-wow-offset="10" id="priceTab1"
                               onmouseover="entraPrice(1)" onmouseout="salePrice(1)">
-                            <div class="price-figure"><i class="fa fa-star" aria-hidden="true"></i><div class="price-semi-circle"></div></div>
+                            <div class="price-figure"><i class="fa fa-check" aria-hidden="true"></i></div>
                             <div class="price-plan"><div class="price-plan-title">Consulta<br>Médica</div></div>
                             <ul>
                             <!-- <li class="dark-bg">Consulta</li>
@@ -628,7 +628,7 @@
                     <div class="col-md-3 col-sm-6 col-xs-12 no-pad">
                         <div class="price-table completo wow bounceIn" data-wow-delay="1.0s" data-wow-offset="10" id="priceTab2"
                               onmouseover="entraPrice(2)" onmouseout="salePrice(2)">
-                            <div class="price-figure"><i class="fa fa-star" aria-hidden="true"></i><div class="price-semi-circle-premium"></div></div>
+                            <div class="price-figure"><i class="fa fa-check" aria-hidden="true"></i></div>
                             <div class="price-plan"><div class="price-plan-title">Rayos<br>X</div></div>
                             <ul>
                             <!-- <li class="dark-bg">Consulta</li>
@@ -647,7 +647,7 @@
                  <div class="col-md-3 col-sm-6 col-xs-12 no-pad">
                      <div class="price-table completo wow bounceIn" data-wow-delay="1.0s" data-wow-offset="10" id="priceTab3"
                           onmouseover="entraPrice(3)" onmouseout="salePrice(3)">
-                         <div class="price-figure"><i class="fa fa-star" aria-hidden="true"></i><div class="price-semi-circle-premium"></div></div>
+                         <div class="price-figure"><i class="fa fa-check" aria-hidden="true"></i></div>
                          <div class="price-plan"><div class="price-plan-title">Procedimientos<br>Médicos</div></div>
                          <ul>
                          <!-- <li class="dark-bg">Consulta</li>
@@ -665,7 +665,7 @@
             	    <div class="col-md-3 col-sm-6 col-xs-12 no-pad">
                         <div class="price-table completo wow bounceIn iprice-no-right-border" data-wow-delay="1.0s" data-wow-offset="10" id="priceTab4"
                               onmouseover="entraPrice(4)" onmouseout="salePrice(4)">
-                            <div class="price-figure"><i class="fa fa-star" aria-hidden="true"></i><div class="price-semi-circle"></div></div>
+                            <div class="price-figure"><i class="fa fa-check" aria-hidden="true"></i></div>
                             <div class="price-plan"><div class="price-plan-title">Paquetes de<br>Rehabilitación</div></div>
                             <ul>
                             <!-- <li class="dark-bg">5 sesiones</li>
@@ -699,9 +699,52 @@
 
             </div>
 
-            <div class="somos wow fadeInUp" data-wow-delay="1.0s" data-wow-offset="10">
-                <img alt="Somos Especialistas" src="images/somos.png" class="img-responsive" />
+            <div class="somos wow bounceIn " data-wow-delay="1.5s" data-wow-offset="10">
+              <div class="row info-somos">
+                <div class="col-sm-12 titulo">
+                  <h2>Somos especialistas en huesos y articulaciones</h2>
+                </div>
+
+                <div class="col-sm-12 col-md-4 col-lg-4 box">
+                  <h3 style="color: #107fc9">SERVICIOS DE ORTOPEDIA Y TRAUMATOLOGIA</h3>
+                  <ul>
+                    <li>Dolor de espalda, hombros y cuello</li>
+                    <li>Padecimiento de rodillas, manos y muñecas</li>
+                    <li>Correción de pie plano</li>
+                    <li>Lesiones deportivas</li>
+                    <li>Desgarres</li>
+                  </ul>
+                </div>
+
+                <div class="col-sm-12 col-md-4 col-lg-4 box">
+                  <h3 style="color: #107fc9">SERVICIOS DE REHABILITACIÓN Y TERAPIA FÍSICA</h3>
+                  <ul>
+                    <li>Recuperación de lesiones</li>
+                    <li>Adultos mayores</li>
+                    <li>Deportistas</li>
+                    <li>Lesiones de oficina</li>
+                    <li>Neurológica</li>
+                    <li>Postquirúrgica</li>
+                  </ul>
+                </div>
+
+                <div class="col-sm-12 col-md-4 col-lg-4 box">
+                  <h3 style="color: #107fc9">RAYOS X</h3>
+                  <ul>
+                    <li>Entrega de radiografías en formato impreso o dígital</li>
+                  </ul>
+                </div>
+
+                <div class="col-sm-12 center">
+                  <hr>
+                  *ATENCIÓN INMEDIATA POR UN ESPECIALISTA
+                </div>
+              </div>
             </div>
+
+            <!-- <div class="somos wow fadeInUp" data-wow-delay="1.0s" data-wow-offset="10">
+                <img alt="Somos Especialistas" src="images/somos.png" class="img-responsive" />
+            </div> -->
 
             <br>
             <br>

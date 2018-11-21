@@ -21,7 +21,7 @@
 <!-- AngularFire -->
 <!-- <script src="https://cdn.firebase.com/libs/angularfire/1.1.3/angularfire.min.js"></script> -->
 <!-- <script src="http://www.searchnc.com/cgi-bin/myip.pl"></script> -->
-<script src="http://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '253864f6-ef76-4c8d-b870-cc13928173ff', f: true }); done = true; } }; })();</script>
 <script type="text/javascript" src="{{ asset('js/app.js')}}"></script>
 <script type='text/javascript'>
