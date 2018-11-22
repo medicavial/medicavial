@@ -38,8 +38,12 @@
 	color: #FFD300 !important;
 }
 
+.btn-amarillo{
+	background-color: #FFD300 !important;
+}
+
 .gris{
-	color: #9A9A9D !important;
+	color: #bcbec0;
 }
 
 .valor{
@@ -177,26 +181,57 @@
     content: "";
 }
 
-.info-somos{
-	background-color: #f8f8f8 !important;
-}
-
-.info-somos > .titulo{
-   background-color: #107fc9 !important;
-   color: #fff !important;
-}
-
-.info-somos > .box > ul li::before {
-    content: "•"; /* Insert content that looks like bullets */
-    padding-right: 5px;
-    color: #107fc9; /* Or a color you prefer */
-}
-
 .link-tel,
 .link-tel:link,
 .link-tel:hover,
 .link-tel:active,
 .link-tel:visited, {
+	color: #939598 !important;
 	text-decoration: none;
 }
 /* termina etstilo del chat */
+
+
+.servicios{
+	background: #459ccc; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #459ccc 0%, #0082cd 74%, #107fc9 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #459ccc 0%,#0082cd 74%,#107fc9 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #459ccc 0%,#0082cd 74%,#107fc9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#459ccc', endColorstr='#107fc9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	color: white;
+	font-size: 20px;
+}
+
+.fa-sm{
+	font-size: 0.8em !important;
+	padding-top: 0.4em;
+}
+
+.btn-container{
+	margin: 1.5em;
+}
+
+.espacio{
+	margin-top: 2em;
+}
+
+.espacio-lg{
+	margin-top: 4em;
+}
+
+.somos{
+	background: #F8F8F8;
+	background-image: url('../images/bone2.png') !important;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+	font-size: 16px;
+}
+
+.link-dev {
+color: #bcbec0;
+}
+
+.gris > a:hover{
+	color: #FFD300;
+}

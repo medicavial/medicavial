@@ -545,215 +545,230 @@
     	<div class="row">
 	    	<div class="no-pad icon-boxes-1">
 
-	            <!--Icon-box-start-->
-	            <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
-					<div class="icon-box-3 wow fadeInDown" data-wow-delay="0.6s" data-wow-offset="150">
-						<div class="icon-boxwrap2"><i data-icon="\e609" class="icon-hospital2 icon-box-back2"></i></div>
-						<div class="icon-box2-title">Nuestras Clinicas</div>
-						<p>Servicio 24 Hrs.</p>
-						<div class="iconbox-readmore"><a href="{{ URL::route('clinicas') }}">Más Info.</a></div>
-					</div>
-	            </div>
+          <!--Icon-box-start-->
+          <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
+  					<div class="icon-box-3 wow fadeInDown" data-wow-delay="0.6s" data-wow-offset="150">
+  						<div class="icon-boxwrap2"><i data-icon="\e609" class="icon-hospital2 icon-box-back2"></i></div>
+  						<div class="icon-box2-title">Nuestras Clinicas</div>
+  						<p>Servicio 24 Hrs.</p>
+  						<div class="iconbox-readmore"><a href="{{ URL::route('clinicas') }}">Más Info.</a></div>
+  					</div>
+          </div>
 
-	            <!--Icon-box-start-->
-	            <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
-					<div class="icon-box-3 wow fadeInUp" data-wow-delay="0.9s" data-wow-offset="150">
-						<div class="icon-boxwrap2"><i class="icon-heart icon-box-back2"></i></div>
-						<div class="icon-box2-title">Una Vida Saludable</div>
-						<p>Consejos, tips y más</p>
-						<div class="iconbox-readmore"><a href="https://medicavial.wordpress.com/">Ir al Blog.</a></div>
-					</div>
-	            </div>
+          <!--Icon-box-start-->
+          <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
+  					<div class="icon-box-3 wow fadeInUp" data-wow-delay="0.9s" data-wow-offset="150">
+  						<div class="icon-boxwrap2"><i class="icon-heart icon-box-back2"></i></div>
+  						<div class="icon-box2-title">Una Vida Saludable</div>
+  						<p>Consejos, tips y más</p>
+  						<div class="iconbox-readmore"><a href="https://medicavial.wordpress.com/">Ir al Blog.</a></div>
+  					</div>
+          </div>
 
-	            <!--Icon-box-start-->
-	            <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
-					<div class="icon-box-3 wow fadeInUp" data-wow-delay="1.2s" data-wow-offset="150">
-						<div class="icon-boxwrap2"><i class="icon-stethoscope icon-box-back2"></i></div>
-						<div class="icon-box2-title">Nuestros Médicos</div>
-						<p>Medicos especialistas certificados.</p>
-						<div class="iconbox-readmore"><a href="{{ URL::route('doctores') }}">Más Info.</a></div>
-					</div>
-	            </div>
+          <!--Icon-box-start-->
+          <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
+  					<div class="icon-box-3 wow fadeInUp" data-wow-delay="1.2s" data-wow-offset="150">
+  						<div class="icon-boxwrap2"><i class="icon-stethoscope icon-box-back2"></i></div>
+  						<div class="icon-box2-title">Nuestros Médicos</div>
+  						<p>Medicos especialistas certificados.</p>
+  						<div class="iconbox-readmore"><a href="{{ URL::route('doctores') }}">Más Info.</a></div>
+  					</div>
+          </div>
 
-	            <!--Icon-box-start-->
-	            <!-- <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
-					<div class="icon-box-3 notViewed wow fadeInUp" data-wow-delay="1.5s" data-wow-offset="150">
-						<div class="icon-boxwrap2"><i class="fa fa-clock-o icon-box-back2"></i></div>
-						<div class="icon-box2-title">Nuestros Paquetes</div>
-						<ul>
-							<li>Monday - Friday <span class="ibox-right-span">8.00  - 18.00</span></li>
-							<li>Saturday <span class="ibox-right-span">8.00  - 16.00</span></li>
-							<li>Sunday <span class="ibox-right-span">8.00 - 13.00</span></li>
-						</ul>
-					</div>
-	            </div> -->
+          <!--Icon-box-start-->
+          <!-- HORARIOS -->
+          <!-- <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
+  					<div class="icon-box-3 notViewed wow fadeInUp" data-wow-delay="1.5s" data-wow-offset="150">
+  						<div class="icon-boxwrap2"><i class="fa fa-clock-o icon-box-back2"></i></div>
+  						<div class="icon-box2-title">Nuestros Paquetes</div>
+  						<ul>
+  							<li>Monday - Friday <span class="ibox-right-span">8.00  - 18.00</span></li>
+  							<li>Saturday <span class="ibox-right-span">8.00  - 16.00</span></li>
+  							<li>Sunday <span class="ibox-right-span">8.00 - 13.00</span></li>
+  						</ul>
+  					</div>
+          </div> -->
 
-	            <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
-					<div class="icon-box-3 wow fadeInUp" data-wow-delay="1.5s" data-wow-offset="150">
-						<div class="icon-boxwrap2"><i class="fa fa-medkit icon-box-back2"></i></div>
-						<div class="icon-box2-title">Nuestros Paquetes</div>
-						<p>Al servicio de tu salud.</p>
-						<div class="iconbox-readmore"><a href="{{ URL::route('nosotros') }}">Más Info.</a></div>
-					</div>
-	            </div>
-	        </div>
+          <!--Icon-box-start-->
+          <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
+    				<div class="icon-box-3 wow fadeInUp" data-wow-delay="1.5s" data-wow-offset="150">
+    					<div class="icon-boxwrap2"><i class="fa fa-medkit icon-box-back2"></i></div>
+    					<div class="icon-box2-title">Nuestros Paquetes</div>
+    					<p>Al servicio de tu salud.</p>
+    					<div class="iconbox-readmore"><a href="{{ URL::route('nosotros') }}">Más Info.</a></div>
+    				</div>
+          </div>
         </div>
+      </div>
+    </div>
 
-        <br><br><br><br>
-
+    <div class="servicios full-width-container">
+      <div class="container">
+        <div class="espacio"></div>
         <div class="row">
-            <div class="col-md-12 col-xs-12 col-sm-12 pull-left subtitle ibg-transparent">Nuestros Servicios</div>
-            	<div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 price-table-wrap pull-left">
+          <div class="col-xs-12 col-sm-12">
+            <h2 class="amarillo"><strong>NUESTROS SERVICIOS</strong> </h2>
+            <div class="espacio"></div>
+          </div>
 
-                     <!--Prising table-->
-                    <div class="col-md-3 col-sm-6 col-xs-12 no-pad">
-                        <div class="price-table completo wow bounceIn iprice-no-right-border" data-wow-delay="0.5s" data-wow-offset="10" id="priceTab1"
-                              onmouseover="entraPrice(1)" onmouseout="salePrice(1)">
-                            <div class="price-figure"><i class="fa fa-check" aria-hidden="true"></i></div>
-                            <div class="price-plan"><div class="price-plan-title">Consulta<br>Médica</div></div>
-                            <ul>
-                            <!-- <li class="dark-bg">Consulta</li>
-                            <li>Diagnostico</li>
-                            <li class="dark-bg">2 Radiografias</li>
-                            <li>aplicación de medicamento</li> -->
-                            <li><a href="./cita">Agenda tu cita</a> </li>
-                            <li><a href="#"><div class="learn-more">Saber Más</div></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                <!--Prising table-->
+          <div class="col-xs-12 col-sm-6">
+            <ul class="fa-ul">
+              <li class="wow fadeIn" data-wow-delay="0.1s" data-wow-offset="10"><i class="fa-li fa fa-angle-right fa-sm"></i>Consulta Médica</li>
+              <li class="wow fadeIn" data-wow-delay="0.3s" data-wow-offset="10"><i class="fa-li fa fa-angle-right fa-sm"></i>Rayos X</li>
+              <li class="wow fadeIn" data-wow-delay="0.5s" data-wow-offset="10"><i class="fa-li fa fa-angle-right fa-sm"></i>Procedimientos Médicos</li>
+              <li class="wow fadeIn" data-wow-delay="0.7s" data-wow-offset="10"><i class="fa-li fa fa-angle-right fa-sm"></i>Paquetes de Rehabilitación</li>
+            </ul>
+          </div>
 
-                   <!--Prising table-->
-                    <!-- price-table-big -->
-                    <div class="col-md-3 col-sm-6 col-xs-12 no-pad">
-                        <div class="price-table completo wow bounceIn" data-wow-delay="1.0s" data-wow-offset="10" id="priceTab2"
-                              onmouseover="entraPrice(2)" onmouseout="salePrice(2)">
-                            <div class="price-figure"><i class="fa fa-check" aria-hidden="true"></i></div>
-                            <div class="price-plan"><div class="price-plan-title">Rayos<br>X</div></div>
-                            <ul>
-                            <!-- <li class="dark-bg">Consulta</li>
-                            <li>Diagnostico</li>
-                            <li class="dark-bg">3 radiografias</li>
-                            <li>aplicación de medicamento</li> -->
-                            <li><a href="./cita">Agenda tu cita</a> </li>
-                            <li><a href="#"><div class="learn-more">Saber Más</div></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                <!--Prising table-->
-
-                <!--Prising table-->
-                 <!-- price-table-big -->
-                 <div class="col-md-3 col-sm-6 col-xs-12 no-pad">
-                     <div class="price-table completo wow bounceIn" data-wow-delay="1.0s" data-wow-offset="10" id="priceTab3"
-                          onmouseover="entraPrice(3)" onmouseout="salePrice(3)">
-                         <div class="price-figure"><i class="fa fa-check" aria-hidden="true"></i></div>
-                         <div class="price-plan"><div class="price-plan-title">Procedimientos<br>Médicos</div></div>
-                         <ul>
-                         <!-- <li class="dark-bg">Consulta</li>
-                         <li>Diagnostico</li>
-                         <li class="dark-bg">3 radiografias</li>
-                         <li>aplicación de medicamento</li> -->
-                         <li><a href="./cita">Agenda tu cita</a> </li>
-                         <li><a href="#"><div class="learn-more">Saber Más</div></a></li>
-                         </ul>
-                     </div>
-                 </div>
-             <!--Prising table-->
-
-                <!--Prising table-->
-            	    <div class="col-md-3 col-sm-6 col-xs-12 no-pad">
-                        <div class="price-table completo wow bounceIn iprice-no-right-border" data-wow-delay="1.0s" data-wow-offset="10" id="priceTab4"
-                              onmouseover="entraPrice(4)" onmouseout="salePrice(4)">
-                            <div class="price-figure"><i class="fa fa-check" aria-hidden="true"></i></div>
-                            <div class="price-plan"><div class="price-plan-title">Paquetes de<br>Rehabilitación</div></div>
-                            <ul>
-                            <!-- <li class="dark-bg">5 sesiones</li>
-                            <li>Diagnostico</li>
-                            <li class="dark-bg">2 Radiografias</li>
-                            <li>aplicación de medicamento</li> -->
-                            <li><a href="./cita">Agenda tu cita</a> </li>
-                            <li><a href=""><div class="learn-more" data-toggle="modal" data-target="#modalRh">Saber Más</div></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- <div class="col-md-3 col-sm-6 col-lg-4 col-xs-12 no-pad">
-                        <div class="price-table wow fadeInDown iprice-no-right-border" data-wow-delay="0.5s" data-wow-offset="10">
-                            <div class="price-figure">$2,500<div class="price-semi-circle"></div></div>
-                            <div class="price-plan"><div class="price-plan-title">Sesiones Rehabilitacón</div></div>
-                            <ul>
-                            <li class="dark-bg">5 sesiones</li>
-                            <li><a href="#"><div class="learn-more">Saber Más</div></a></li>
-                            </ul>
-                        </div>
-                    </div> -->
-
-                <!--Prising table-->
-
-                            	<!--Prising table-->
-
-
-                <!--Prising table-->
-
-                </div>
-
-            </div>
-
-            <div class="somos wow bounceIn " data-wow-delay="1.5s" data-wow-offset="10">
-              <div class="row info-somos">
-                <div class="col-sm-12 titulo">
-                  <h2>Somos especialistas en huesos y articulaciones</h2>
-                </div>
-
-                <div class="col-sm-12 col-md-4 col-lg-4 box">
-                  <h3 style="color: #107fc9">SERVICIOS DE ORTOPEDIA Y TRAUMATOLOGIA</h3>
-                  <ul>
-                    <li>Dolor de espalda, hombros y cuello</li>
-                    <li>Padecimiento de rodillas, manos y muñecas</li>
-                    <li>Correción de pie plano</li>
-                    <li>Lesiones deportivas</li>
-                    <li>Desgarres</li>
-                  </ul>
-                </div>
-
-                <div class="col-sm-12 col-md-4 col-lg-4 box">
-                  <h3 style="color: #107fc9">SERVICIOS DE REHABILITACIÓN Y TERAPIA FÍSICA</h3>
-                  <ul>
-                    <li>Recuperación de lesiones</li>
-                    <li>Adultos mayores</li>
-                    <li>Deportistas</li>
-                    <li>Lesiones de oficina</li>
-                    <li>Neurológica</li>
-                    <li>Postquirúrgica</li>
-                  </ul>
-                </div>
-
-                <div class="col-sm-12 col-md-4 col-lg-4 box">
-                  <h3 style="color: #107fc9">RAYOS X</h3>
-                  <ul>
-                    <li>Entrega de radiografías en formato impreso o dígital</li>
-                  </ul>
-                </div>
-
-                <div class="col-sm-12 center">
-                  <hr>
-                  *ATENCIÓN INMEDIATA POR UN ESPECIALISTA
-                </div>
+          <div class="col-xs-12 col-sm-6">
+            <div class="btn-container text-center align-middle">
+              <div class="s1-but wow bounceIn" data-wow-delay="0.9s" data-wow-offset="10">
+                <a href="{{ URL::route('cita') }}">Agenda tu cita</a>
               </div>
             </div>
+          </div>
+        </div>
 
-            <!-- <div class="somos wow fadeInUp" data-wow-delay="1.0s" data-wow-offset="10">
-                <img alt="Somos Especialistas" src="images/somos.png" class="img-responsive" />
-            </div> -->
+        <div class="espacio-lg"></div>
+      </div>
+    </div>
 
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+    <div class="somos full-width-container">
+      <div class="container">
+        <div class="espacio"></div>
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4 wow fadeIn" data-wow-delay="0.5s" data-wow-offset="10">
+            <h3 class="azul text-center">Servicios de Ortopedia y Traumatologia</h3>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-check fa-sm"></i>Dolor de espalda, hombros y cuello</li>
+              <li><i class="fa-li fa fa-check fa-sm"></i>Padecimiento de rodillas, manos y muñecas</li>
+              <li><i class="fa-li fa fa-check fa-sm"></i>Correción de pie plano</li>
+              <li><i class="fa-li fa fa-check fa-sm"></i>Lesiones deportivas</li>
+              <li><i class="fa-li fa fa-check fa-sm"></i>Desgarres</li>
+            </ul>
+          </div>
 
+          <div class="col-sm-12 col-md-4 col-lg-4 wow fadeIn" data-wow-delay="0.7s" data-wow-offset="10">
+            <h3 class="azul text-center">Servicios de Rehabilitación y Terapia Física</h3>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-check fa-sm"></i>Recuperación de lesiones</li>
+              <li><i class="fa-li fa fa-check fa-sm"></i>Adultos mayores</li>
+              <li><i class="fa-li fa fa-check fa-sm"></i>Deportistas</li>
+              <li><i class="fa-li fa fa-check fa-sm"></i>Lesiones de oficina</li>
+              <li><i class="fa-li fa fa-check fa-sm"></i>Neurológica</li>
+              <li><i class="fa-li fa fa-check fa-sm"></i>Postquirúrgica</li>
+            </ul>
+          </div>
 
-    </div><!--Icon Boxes 1 end-->
+          <div class="col-sm-12 col-md-4 col-lg-4 wow fadeIn" data-wow-delay="0.9s" data-wow-offset="10">
+            <h3 class="azul text-center">Rayos X <br><span>&nbsp;</span> </h3>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-check fa-sm"></i>Entrega de radiografías en formato impreso o dígital</li>
+            </ul>
+          </div>
+
+          <div class="col-sm-12 text-right wow fadeIn" data-wow-delay="1.0s" data-wow-offset="10">
+            <hr>
+            <small>*ATENCIÓN INMEDIATA POR UN ESPECIALISTA</small>
+          </div>
+        </div>
+
+        <div class="espacio"></div>
+      </div>
+    </div>
+
+    <div class="container wow bounceIn" data-wow-delay="1.3s" data-wow-offset="10">
+      <div class="espacio"></div>
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <h2 class="azul"><strong>SOMOS ESPECIALISTAS EN HUESOS Y ARTICULACIONES</strong></h2>
+        </div>
+      </div>
+      <div class="espacio"></div>
+    </div>
+
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-xs-12 col-sm-12 pull-left subtitle ibg-transparent">Nuestros Servicios</div>
+        <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 price-table-wrap pull-left">
+
+          <div class="col-md-3 col-sm-6 col-xs-12 no-pad">
+            <div class="price-table completo wow bounceIn iprice-no-right-border" data-wow-delay="0.5s" data-wow-offset="10" id="priceTab1"
+                  onmouseover="entraPrice(1)" onmouseout="salePrice(1)">
+              <div class="price-figure"><i class="fa fa-check" aria-hidden="true"></i></div>
+              <div class="price-plan"><div class="price-plan-title">Consulta<br>Médica</div></div>
+              <ul>
+                <li class="dark-bg">Consulta</li>
+                <li>Diagnostico</li>
+                <li class="dark-bg">2 Radiografias</li>
+                <li>aplicación de medicamento</li>
+                <li><a href="./cita">Agenda tu cita</a> </li>
+                <li><a href="#"><div class="learn-more">Saber Más</div></a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12 no-pad">
+            <div class="price-table completo wow bounceIn" data-wow-delay="1.0s" data-wow-offset="10" id="priceTab2"
+                  onmouseover="entraPrice(2)" onmouseout="salePrice(2)">
+              <div class="price-figure"><i class="fa fa-check" aria-hidden="true"></i></div>
+              <div class="price-plan"><div class="price-plan-title">Rayos<br>X</div></div>
+              <ul>
+                <li class="dark-bg">Consulta</li>
+                <li>Diagnostico</li>
+                <li class="dark-bg">3 radiografias</li>
+                <li>aplicación de medicamento</li>
+                <li><a href="./cita">Agenda tu cita</a> </li>
+                <li><a href="#"><div class="learn-more">Saber Más</div></a></li>
+              </ul>
+            </div>
+          </div>
+
+         <div class="col-md-3 col-sm-6 col-xs-12 no-pad">
+           <div class="price-table completo wow bounceIn" data-wow-delay="1.0s" data-wow-offset="10" id="priceTab3"
+                onmouseover="entraPrice(3)" onmouseout="salePrice(3)">
+           <div class="price-figure"><i class="fa fa-check" aria-hidden="true"></i></div>
+           <div class="price-plan"><div class="price-plan-title">Procedimientos<br>Médicos</div></div>
+           <ul>
+             <li class="dark-bg">Consulta</li>
+             <li>Diagnostico</li>
+             <li class="dark-bg">3 radiografias</li>
+             <li>aplicación de medicamento</li>
+             <li><a href="./cita">Agenda tu cita</a> </li>
+             <li><a href="#"><div class="learn-more">Saber Más</div></a></li>
+           </ul>
+           </div>
+         </div>
+
+    	    <div class="col-md-3 col-sm-6 col-xs-12 no-pad">
+            <div class="price-table completo wow bounceIn iprice-no-right-border" data-wow-delay="1.0s" data-wow-offset="10" id="priceTab4"
+                  onmouseover="entraPrice(4)" onmouseout="salePrice(4)">
+            <div class="price-figure"><i class="fa fa-check" aria-hidden="true"></i></div>
+            <div class="price-plan"><div class="price-plan-title">Paquetes de<br>Rehabilitación</div></div>
+            <ul>
+              <li class="dark-bg">5 sesiones</li>
+              <li>Diagnostico</li>
+              <li class="dark-bg">2 Radiografias</li>
+              <li>aplicación de medicamento</li>
+              <li><a href="./cita">Agenda tu cita</a> </li>
+              <li><a href=""><div class="learn-more" data-toggle="modal" data-target="#modalRh">Saber Más</div></a></li>
+            </ul>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-lg-4 col-xs-12 no-pad">
+            <div class="price-table wow fadeInDown iprice-no-right-border" data-wow-delay="0.5s" data-wow-offset="10">
+              <div class="price-figure">$2,500<div class="price-semi-circle"></div></div>
+              <div class="price-plan"><div class="price-plan-title">Sesiones Rehabilitacón</div></div>
+              <ul>
+                <li class="dark-bg">5 sesiones</li>
+                <li><a href="#"><div class="learn-more">Saber Más</div></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
 
     <!-- Modal -->
     <div class="modal fade" id="modalRh" tabindex="2" role="dialog" aria-labelledby="myModalLabel">

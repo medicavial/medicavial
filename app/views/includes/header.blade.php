@@ -189,8 +189,8 @@
 
 
                             <ul class="nav navbar-nav navbar-right other-op">
-                                <li><i class="icon-phone2"></i>(55) 55-14-47-00 </li>
-                                <li><i class="icon-mail"></i><a href="#" class="mail-menu">contacto@medicavial.com.mx</a></li>
+                                <li><a href="tel:018003633422" class="mail-menu"><i class="icon-phone2"></i>01 800 3 MEDICA(633422) </li></a>
+                                <li><a href="mailto:contacto@medicavial.com.mx" class="mail-menu"><i class="icon-mail"></i>contacto@medicavial.com.mx</li></a>
 
                                 <li><i class="icon-globe"></i>
                                     <a href="https://www.facebook.com/medicavial" class="mail-menu"><i class="icon-facebook"></i></a>
