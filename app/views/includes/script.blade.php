@@ -16,6 +16,7 @@
 <script type="text/javascript" src="{{ asset('js/angular-messages.min.js')}}"></script>
 <script type="text/javascript" src="{{ asset('js/angular-locale_es-mx.js')}}"></script>
 <script type="text/javascript" src="{{ asset('js/ui-bootstrap-tpls-1.2.4.min.js')}}"></script>
+<script type="text/javascript" src="{{ asset('js/pwa.js')}}"></script>
 <!-- Firebase -->
 <!-- <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script> -->
 <!-- AngularFire -->
