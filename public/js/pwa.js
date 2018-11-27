@@ -6,7 +6,8 @@ var swReg;
 if ( navigator.serviceWorker ) {
 
     if ( url.includes('localhost') ) {
-        swLocation = '/medicavial/public/sw.js';
+      console.warn('DEVELOP MODE: RUN php artisan serve');
+        swLocation = '/sw.js';
     }
 
     // SW SE REGISTRA CUANDO EL SITIO CARGA EN SU TOTALIDAD

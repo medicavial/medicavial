@@ -4,8 +4,8 @@
     <title>@yield('titulo')</title>
     <meta name="description" content="@yield('descripcion')">
 
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
 
     {{ HTML::style('css/jquery-ui-1.10.3.custom.css') }}
     {{ HTML::style('css/animate.css') }}
@@ -49,4 +49,6 @@
         color: #107fc9;
       }
     </style>
+    
+    <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/png" href="{{ URL::asset('images/favicon.png') }}" />
