@@ -20,3 +20,26 @@ if ( navigator.serviceWorker ) {
         });
     });
 }
+
+
+// VERIFICAR CONEXION
+function isOnline() {
+    let offlineBar = document.getElementById('offline-static');
+    let telefono = document.getElementById('telefono');
+    let chat = document.getElementById('PureChatWidget');
+
+    if ( navigator.onLine ) {
+        offlineBar.style.display = 'none';
+        chat.style.display = 'block';
+        telefono.style.display = 'block';
+    } else{
+        offlineBar.style.display = 'block';
+        chat.style.display = 'none';
+        telefono.style.display = 'none';
+    }
+};
+
+window.addEventListener('online', isOnline );
+window.addEventListener('offline', isOnline );
+
+isOnline();

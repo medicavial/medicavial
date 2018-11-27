@@ -9,9 +9,8 @@
 		</div>
     </div>
 
-
     <!--Topbar-->
-    <div class="topbar-info no-pad">
+    <div class="topbar-info no-pad offline-switch" id="telefono">
         <div class="container">
             <div class="social-wrap-head col-md-2 no-pad">
                 <ul>
@@ -30,6 +29,11 @@
     </div><!--Topbar-info-close-->
 
     <div id="headerstic">
+        <div class="offline-aviso" id="offline-static">
+            <div class="container text-center">
+              SIN CONEXIÓN <i class="fa fa-spinner fa-spin"></i>
+            </div>
+        </div>
 
         <div class=" top-bar container">
         	<div class="row">
