@@ -12,6 +12,7 @@ if ( navigator.serviceWorker ) {
 
     // SW SE REGISTRA CUANDO EL SITIO CARGA EN SU TOTALIDAD
     window.addEventListener('load', function() {
+        isOnline();
 
         // EVALUAMOS SI SE REGISTRÓ EL SW
         navigator.serviceWorker.register( swLocation ).then( function(reg){
@@ -24,18 +25,26 @@ if ( navigator.serviceWorker ) {
 
 // VERIFICAR CONEXION
 function isOnline() {
-    let offlineBar = document.getElementById('offline-static');
-    let telefono = document.getElementById('telefono');
     let chat = document.getElementById('PureChatWidget');
 
+    let elementos = document.getElementsByClassName('elementSwitch');
+    let avisos = document.getElementsByClassName('avisoSwitch');
+
     if ( navigator.onLine ) {
-        offlineBar.style.display = 'none';
         chat.style.display = 'block';
-        telefono.style.display = 'block';
+
+        for (var i = 0; i < elementos.length; i++) {
+          elementos[i].style.display='block';
+          avisos[i].style.display='none';
+        }
+
     } else{
-        offlineBar.style.display = 'block';
         chat.style.display = 'none';
-        telefono.style.display = 'none';
+
+        for (var i = 0; i < elementos.length; i++) {
+          elementos[i].style.display='none';
+          avisos[i].style.display='block';
+        }
     }
 };
 

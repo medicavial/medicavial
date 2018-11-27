@@ -237,8 +237,11 @@ color: #bcbec0;
 }
 
 .offline-aviso{
-	display: none;
 	background-color: #b71c1c;
 	color: #FFF;
 	font-weight: bold;
+}
+
+.avisoSwitch{
+	display: none;
 }

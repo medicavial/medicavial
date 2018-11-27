@@ -1,7 +1,7 @@
 @extends('layouts.default')
 
 @section('titulo')
-    MedicaVial - Nuestras Clinicas 
+    MedicaVial - Nuestras Clinicas
 @stop
 
 @section('descripcion')
@@ -10,105 +10,92 @@
 
 @section('content')
 
-	<div id="contact-version-two">	
-    <!--Mid Content Start-->
-    
-    
+	<div id="contact-version-two">
+      <!--Mid Content Start-->
 	    <div class="about-intro-wrap pull-left">
-	     
+
 		    <div class="bread-crumb-wrap ibc-wrap-4">
 		    	<div class="container">
 		         	<div class="inner-page-title-wrap col-xs-12 col-md-12 col-sm-12">
 		            	<div class="bread-heading"><h1>Nuestras Clinicas</h1></div>
-		            </div>
+		          </div>
 		        </div>
 		    </div>
 
 		    <div class="container">
 	            <!--About-us top-content-->
-
 	        	<div class="col-md-12 col-xs-12 col-sm-12 pull-left subtitle no-pad ibg-transparent">Especialistas en Huesos y Articulaciones.</div>
-	            
-	            
-	            <div class="col-xs-12 col-sm-12 col-md-12">
-	            
-					<img src="images/new-slider/24hrs.png" alt="" class="img-responsive">
-	            
-	            </div>
-
-	        </div>
+	             <div class="col-xs-12 col-sm-12 col-md-12">
+					        <img src="images/new-slider/24hrs.png" alt="" class="img-responsive">
+	             </div>
+	      </div>
 
 
 			<div class="container">
-				
 				<hr>
+	      <h2>Valle de México</h2>
 
-	            <h2>Valle de México</h2>
-
-	            <div class="col-xs-12 col-sm-12 col-md-12 pull-left doctors-3col-tabs no-pad">
+	      <div class="col-xs-12 col-sm-12 col-md-12 pull-left doctors-3col-tabs no-pad">
 
 					<!--Doc intro-->
 					<div class="doctor-box col-md-6 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-delay="0.5s" data-wow-offset="200">
-
-						<div class="zoom-wrap">
-							<div class="zoom-icon"></div>
-							<img alt="" class="img-responsive" src="images/clinicas/interlomas.jpg" />
-						</div>
-						<div class="doc-name">
+  						<div class="zoom-wrap">
+  							<div class="zoom-icon"></div>
+  							<img alt="" class="img-responsive" src="images/clinicas/interlomas.jpg" />
+  						</div>
+  						<div class="doc-name">
 
 							<div class="doc-name-class pull-left">INTERLOMAS</div>
 							<button class="dept-details-butt tiny-but pull-right" data-toggle="collapse" data-target="#collapseExample" aria-controls="collapseExample">Mas Info</button>
 							<br>
 							<div class="collapse" id="collapseExample">
 								<hr>
-							    Calle de la Amargura #60 <br>
+							  Calle de la Amargura #60 <br>
 								Col. Lomas de la Herradura (a espaldas de Magnocentro) <br>
 								(55) 5290 5657 y 5290 4800 <br>
 								Responsable Sanitario: <br>
 								Dr. Eduardo Laguna Sanchez <br>
 								Cédula: 4964225 U.A.E.M.
 								<br>
-								<div class="purchase-strip-blue dept-apponit-butt medium-but-animation pull-right">    
+								<div class="purchase-strip-blue dept-apponit-butt medium-but-animation pull-right">
 									<section class="color-4">
-	                                    <p class="ipurchase-paragraph">
-	                                        <button class="icon-calendar btn btn-4 btn-4a notViewed">Agendar Cita</button>
-	                                    </p>
-	                                </section>
-	                            </div>
+                    <p class="ipurchase-paragraph">
+                        <a class="icon-calendar btn btn-4 btn-4a notViewed" href="{{ URL::route('cita') }}">Agendar Cita</a>
+                    </p>
+	                </section>
+	              </div>
 							</div>
-							
 						</div>
 					</div>
 
 					<div class="doctor-box col-md-6 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-delay="0.5s" data-wow-offset="200">
 
-						<div class="zoom-wrap">
-							<div class="zoom-icon"></div>
-							<img alt="" class="img-responsive" src="images/clinicas/satelite.jpg" />
-						</div>
-						<div class="doc-name">
+  						<div class="zoom-wrap">
+  							<div class="zoom-icon"></div>
+  							<img alt="" class="img-responsive" src="images/clinicas/satelite.jpg" />
+  						</div>
+  						<div class="doc-name">
+  							<div class="doc-name-class pull-left">SATÉLITE</div>
+  							<button class="dept-details-butt tiny-but pull-right" data-toggle="collapse" data-target="#collapse2Example" aria-expanded="true" aria-controls="collapse2Example">Mas Info</button>
+  							<br>
+  							<div class="collapse" id="collapse2Example">
+  								<hr>
+  							  Pafnuncio Padilla, No. 17 Piso 3, <br>
+  								Ciudad Satélite, Edo. Mex. <br>
+  								Tels. 5562 0010 y 5562 2255 <br>
+  								Responsable Sanitario: <br>
+  								Dr. Salomón Jerónimo Campos Romano <br>
+  								Cédula: 3872369 U.N.A.M.
+  								<br>
+  								<div class="purchase-strip-blue dept-apponit-butt small-but-animation pull-right">
+  									<section class="color-4">
+                      <p class="ipurchase-paragraph">
+                        <a class="icon-calendar btn btn-4 btn-4a notViewed" href="{{ URL::route('cita') }}">Agendar Cita</a>
+                      </p>
+                    </section>
+  	              </div>
+  							</div>
 
-							<div class="doc-name-class pull-left">SATÉLITE</div>
-							<button class="dept-details-butt tiny-but pull-right" data-toggle="collapse" data-target="#collapse2Example" aria-expanded="true" aria-controls="collapse2Example">Mas Info</button>
-							<br>
-							<div class="collapse" id="collapse2Example">
-								<hr>
-							    Pafnuncio Padilla, No. 17 Piso 3, <br>
-								Ciudad Satélite, Edo. Mex. <br>
-								Tels. 5562 0010 y 5562 2255 <br>
-								Responsable Sanitario: <br>
-								Dr. Salomón Jerónimo Campos Romano <br>
-								Cédula: 3872369 U.N.A.M.
-								<br>
-								<div class="purchase-strip-blue dept-apponit-butt small-but-animation pull-right">    
-									<section class="color-4">
-	                                    <p class="ipurchase-paragraph">
-	                                        <button class="icon-calendar btn btn-4 btn-4a notViewed">Agendar Cita</button>
-	                                    </p>
-	                                </section>
-	                            </div>
-							</div>
-							
 						</div>
 					</div>
 
@@ -119,7 +106,7 @@
 							<img alt="" class="img-responsive" src="images/clinicas/perisur.jpg" />
 						</div>
 						<div class="doc-name">
-						
+
 							<div class="doc-name-class pull-left">PERISUR</div>
 							<button class="dept-details-butt tiny-but pull-right" data-toggle="collapse" data-target="#collapse3Example" aria-expanded="true" aria-controls="collapse3Example">Mas Info</button>
 							<br>
@@ -133,15 +120,15 @@
 								Dr. Sergio Cisneros Mora <br>
 								Cédula: 5461210 U.N.A.M.
 								<br>
-								<div class="purchase-strip-blue dept-apponit-butt medium-but-animation pull-right">    
+								<div class="purchase-strip-blue dept-apponit-butt medium-but-animation pull-right">
 									<section class="color-4">
 	                                    <p class="ipurchase-paragraph">
-	                                        <button class="icon-calendar btn btn-4 btn-4a notViewed">Agendar Cita</button>
+	                                        <a class="icon-calendar btn btn-4 btn-4a notViewed" href="{{ URL::route('cita') }}">Agendar Cita</a>
 	                                    </p>
 	                                </section>
 	                            </div>
 							</div>
-						
+
 						</div>
 					</div>
 
@@ -165,15 +152,15 @@
 								Dr. Sergio Cisneros Mora <br>
 								Cédula: 5461210 U.N.A.M.
 								<br>
-								<div class="purchase-strip-blue dept-apponit-butt medium-but-animation pull-right">    
+								<div class="purchase-strip-blue dept-apponit-butt medium-but-animation pull-right">
 									<section class="color-4">
 	                                    <p class="ipurchase-paragraph">
-	                                        <button class="icon-calendar btn btn-4 btn-4a notViewed">Agendar Cita</button>
+	                                        <a class="icon-calendar btn btn-4 btn-4a notViewed" href="{{ URL::route('cita') }}">Agendar Cita</a>
 	                                    </p>
 	                                </section>
 	                            </div>
 							</div>
-							
+
 						</div>
 					</div>
 
@@ -206,15 +193,15 @@
 								Dr. Juan Alejandro Treviño Bernal <br>
 								Cédula: 5578777 U.A.N.L.
 								<br>
-								<div class="purchase-strip-blue dept-apponit-butt medium-but-animation pull-right">    
+								<div class="purchase-strip-blue dept-apponit-butt medium-but-animation pull-right">
 									<section class="color-4">
 	                                    <p class="ipurchase-paragraph">
-	                                        <button class="icon-calendar btn btn-4 btn-4a notViewed">Agendar Cita</button>
+	                                        <a class="icon-calendar btn btn-4 btn-4a notViewed" href="{{ URL::route('cita') }}">Agendar Cita</a>
 	                                    </p>
 	                                </section>
 	                            </div>
 							</div>
-							
+
 						</div>
 					</div>
 
@@ -238,15 +225,15 @@
 								Dr. Victor Rosas Garcia <br>
 								Cédula: 5988453 B.U.A.P.
 								<br>
-								<div class="purchase-strip-blue dept-apponit-butt medium-but-animation pull-right">    
+								<div class="purchase-strip-blue dept-apponit-butt medium-but-animation pull-right">
 									<section class="color-4">
 	                                    <p class="ipurchase-paragraph">
-	                                        <button class="icon-calendar btn btn-4 btn-4a notViewed">Agendar Cita</button>
+	                                        <a class="icon-calendar btn btn-4 btn-4a notViewed" href="{{ URL::route('cita') }}">Agendar Cita</a>
 	                                    </p>
 	                                </section>
 	                            </div>
 							</div>
-							
+
 						</div>
 					</div>
 
@@ -270,15 +257,15 @@
 								Dr. Miguel Alejandro del Pilar Aguilar Ramos <br>
 								Cédula: 8101086 U.A.D.Y.
 								<br>
-								<div class="purchase-strip-blue dept-apponit-butt medium-but-animation pull-right">    
+								<div class="purchase-strip-blue dept-apponit-butt medium-but-animation pull-right">
 									<section class="color-4">
 	                                    <p class="ipurchase-paragraph">
-	                                        <button class="icon-calendar btn btn-4 btn-4a notViewed">Agendar Cita</button>
+	                                        <a class="icon-calendar btn btn-4 btn-4a notViewed" href="{{ URL::route('cita') }}">Agendar Cita</a>
 	                                    </p>
 	                                </section>
 	                            </div>
 							</div>
-							
+
 						</div>
 					</div>
 
@@ -302,15 +289,15 @@
 								Dr. Cristobal Duron Ovalle <br>
 								Cédula: AEIE-35068 U.A.N.L.
 								<br>
-								<div class="purchase-strip-blue dept-apponit-butt medium-but-animation pull-right">    
+								<div class="purchase-strip-blue dept-apponit-butt medium-but-animation pull-right">
 									<section class="color-4">
 	                                    <p class="ipurchase-paragraph">
-	                                        <button class="icon-calendar btn btn-4 btn-4a notViewed">Agendar Cita</button>
+	                                        <a class="icon-calendar btn btn-4 btn-4a notViewed" href="{{ URL::route('cita') }}">Agendar Cita</a>
 	                                    </p>
 	                                </section>
 	                            </div>
 							</div>
-							
+
 						</div>
 					</div>
 
@@ -334,15 +321,15 @@
 								Dr. Manuel Alejandro Serrano Enríquez <br>
 								Cédula: 8475426 U.A.C.H.
 								<br>
-								<div class="purchase-strip-blue dept-apponit-butt medium-but-animation pull-right">    
+								<div class="purchase-strip-blue dept-apponit-butt medium-but-animation pull-right">
 									<section class="color-4">
 	                                    <p class="ipurchase-paragraph">
-	                                        <button class="icon-calendar btn btn-4 btn-4a notViewed">Agendar Cita</button>
+	                                        <a class="icon-calendar btn btn-4 btn-4a notViewed" href="{{ URL::route('cita') }}">Agendar Cita</a>
 	                                    </p>
 	                                </section>
 	                            </div>
 							</div>
-							
+
 						</div>
 					</div>
 
@@ -366,15 +353,15 @@
 								Dra. Karla Elena Gutierrez Enríquez <br>
 								Cédula: 7541576 U.N.A.M.
 								<br>
-								<div class="purchase-strip-blue dept-apponit-butt medium-but-animation pull-right">    
+								<div class="purchase-strip-blue dept-apponit-butt medium-but-animation pull-right">
 									<section class="color-4">
 	                                    <p class="ipurchase-paragraph">
-	                                        <button class="icon-calendar btn btn-4 btn-4a notViewed">Agendar Cita</button>
+	                                        <a class="icon-calendar btn btn-4 btn-4a notViewed" href="{{ URL::route('cita') }}">Agendar Cita</a>
 	                                    </p>
 	                                </section>
 	                            </div>
 							</div>
-							
+
 						</div>
 					</div>
 
@@ -412,7 +399,7 @@
 		    </div>
 
     	</div>
-    </div> 
-	
-	 
+    </div>
+
+
 @stop
