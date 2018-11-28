@@ -30,7 +30,7 @@
 
     <div id="headerstic">
         <div class="avisoSwitch offline-aviso" id="offline-static">
-            <div class="container text-center">
+            <div class="text-center">
               SIN CONEXIÓN <i class="fa fa-spinner fa-spin"></i>
             </div>
         </div>
@@ -105,15 +105,48 @@
 
                                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-cog"></i>Servicios<b class="icon-angle-down"></b></a>
                                     <ul class="dropdown-menu">
-    									<li><a href="{{ URL::route('clinicas') }}">Nuestras Clinicas</a></li>
+    									                  <li><a href="{{ URL::route('clinicas') }}">Nuestras Clinicas</a></li>
                                         <li><a href="{{ URL::route('membresia') }}">Membresia MV</a></li>
                                         <li><a href="{{ URL::route('doctores') }}">Nuestros Médicos</a></li>
-                                        <li><a href="{{ URL::route('pacientes') }}">Información para paciente</a></li>
+                                        <!-- <li><a href="{{ URL::route('pacientes') }}">Información para paciente</a></li> -->
                                         <li><a href="{{ URL::route('cita') }}">Agenda tu Cita</a></li>
                                     </ul>
                                 </li>
 
-                                <li><a href="https://medicavial.wordpress.com/"><i class="icon-pencil"></i>Blog</a>
+                                <li>
+                                  <a href="{{ URL::route('contacto') }}"><i class="icon-envelope"></i>Contacto</a>
+                                </li>
+                                <li><a href="http://facturacion.medicavial.com.mx/" target="_blank"><i class="icon-file"></i>Facturación</a>
+                                    <!-- <ul class="dropdown-menu">
+                                        <li class="dropdown"><a href="#">About Us</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="about-us-1.html">About Us 1</a></li>
+                                                <li><a href="about-us-2.html">About Us 2</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="#">Services</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="services-1.html">Services 1</a></li>
+                                                <li><a href="services-2.html">Services 2</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="departments.html">Departments</a></li>
+                                        <li class="dropdown"><a href="#">Meet Our Doctors</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="meet-our-doctors-1.html">Meet Our Doctors 1</a></li>
+                                                <li><a href="meet-our-doctors-2.html">Meet Our Doctors 2</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="testimonials.html">Testimonials</a></li>
+                                        <li><a href="faq.html">FAQs</a></li>
+                                    </ul> -->
+                                </li>
+
+                                <!-- <li>
+                                  <a href="{{ URL::route('inicio') }}"><i class="icon-file"></i>Aseguradoras</a>
+                                </li> -->
+
+                                <li><a href="https://medicavial.wordpress.com/" target="_blank"><i class="icon-pencil"></i>Blog</a>
                                     <!-- <ul class="dropdown-menu">
                                     	<li class="dropdown left-dropdown"><a href="#">Blog Masonry</a>
     										<ul class="dropdown-menu">
@@ -146,43 +179,6 @@
     		                                </ul>
     		                            </li>
                                     </ul> -->
-                                </li>
-
-                                <li><a href="{{ URL::route('contacto') }}"><i class="icon-envelope"></i>Contacto</a>
-                                    <!-- <ul class="dropdown-menu">
-                                        <li><a href="contact-1.html">Contact Version 1</a></li>
-                                        <li><a href="contact-2.html">Contact Version 2</a></li>
-                                        <li><a href="contact-3.html">Contact Version 3</a></li>
-                                    </ul> -->
-                                </li>
-
-                                <li><a href="http://facturacion.medicavial.com.mx/"><i class="icon-file"></i>Facturación</a>
-                                    <!-- <ul class="dropdown-menu">
-                                        <li class="dropdown"><a href="#">About Us</a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="about-us-1.html">About Us 1</a></li>
-                                                <li><a href="about-us-2.html">About Us 2</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown"><a href="#">Services</a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="services-1.html">Services 1</a></li>
-                                                <li><a href="services-2.html">Services 2</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="departments.html">Departments</a></li>
-                                        <li class="dropdown"><a href="#">Meet Our Doctors</a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="meet-our-doctors-1.html">Meet Our Doctors 1</a></li>
-                                                <li><a href="meet-our-doctors-2.html">Meet Our Doctors 2</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="testimonials.html">Testimonials</a></li>
-                                        <li><a href="faq.html">FAQs</a></li>
-                                    </ul> -->
-                                </li>
-
-                                <li><a href="http://www.medicavial.com.mx"><i class="icon-file"></i>Aseguradoras</a>
                                 </li>
 
                             </ul>

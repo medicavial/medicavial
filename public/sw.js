@@ -24,11 +24,13 @@ const APP_SHELL = [
     'nosotros',
     'pacientes',
     'unidades',
+    'manifest.json',
     'css/style.css',
-    'images/favicon.png',
     'js/pwa.js',
     'js/sw-utils.js',
     'js/app.js',
+    'images/favicon.png',
+    'images/mv-blanco-144.png',
     'images/loader1.gif',
     'images/logoMV.png',
     'images/second.png',
@@ -77,7 +79,8 @@ const APP_SHELL = [
     'images/clinicas/interlomas.jpg',
     'images/ov-plus.png',
     'images/membresia.png',
-    'images/mydoc-dummy-1.jpg'
+    'images/mydoc-dummy-1.jpg',
+    'images/li-bottom.jpg'
 ];
 
 const APP_SHELL_INMUTABLE = [
@@ -120,7 +123,7 @@ const APP_SHELL_INMUTABLE = [
     'https://fonts.gstatic.com/s/notosans/v7/o-0NIpQlx3QUlC5A4PNjXhFVZNyB.woff2',
     'https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0b.woff2',
     'http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js',
-    'https://app.purechat.com/VisitorWidget/WidgetScript',
+    // 'https://app.purechat.com/VisitorWidget/WidgetScript',
     // 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false',
     // 'https://maps.googleapis.com/maps-api-v3/api/js/35/2/intl/es_ALL/common.js',
     // 'https://maps.googleapis.com/maps-api-v3/api/js/35/2/intl/es_ALL/util.js',
@@ -144,6 +147,7 @@ self.addEventListener('install', e => {
 
 // ACTIVACIÓN DEL SW
 self.addEventListener('activate', e => {
+    console.info('SW by Samuel Ramirez http://sramirez.hol.es');
     const respuesta = caches.keys().then( keys => {
 
         keys.forEach( key => {
@@ -176,7 +180,7 @@ self.addEventListener('fetch', e => {
               return actualizaCacheDinamico( DYNAMIC_CACHE, e.request, newRes );
           });
       }
-  });
+  })
 
   e.respondWith( respuesta );
 });

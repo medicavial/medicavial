@@ -48,7 +48,24 @@
       .azul{
         color: #107fc9;
       }
+      html, body {
+        overscroll-behavior-y: contain;
+        -webkit-user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+    }
     </style>
-    
+
     <link rel="manifest" href="manifest.json">
-    <link rel="icon" type="image/png" href="{{ URL::asset('images/favicon.png') }}" />
+    <link rel="icon" type="image/png" href="{{ URL::asset('images/mv-blanco-144.png') }}" />
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- iOS Web App-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon" href="{{ URL::asset('images/mv-blanco-144.png') }}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ URL::asset('images/mv-blanco-144.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ URL::asset('images/mv-blanco-144.png') }}">
+    <link rel="apple-touch-icon" sizes="167x167" href="{{ URL::asset('images/mv-blanco-144.png') }}">
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Twittor!">

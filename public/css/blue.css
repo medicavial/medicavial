@@ -14117,7 +14117,7 @@ input[type="date"] {
 }
 
 .foot-widget {
-    border-bottom: 1px solid #272424;
+    /* border-bottom: 1px solid #272424; */
     margin-bottom: 20px
 }
 
