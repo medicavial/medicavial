@@ -1,5 +1,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, device-height, viewport-fit=cover"/>
+
 
     <title>@yield('titulo')</title>
     <meta name="description" content="@yield('descripcion')">
@@ -23,6 +24,13 @@
     	<link rel="stylesheet" type="text/css" href="css/ie9.css" />
     <![endif]-->
     <style>
+      html, body {
+        overscroll-behavior-y: contain;
+        -webkit-user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+      }
+
       .completo{
         width: 100%;
       }
@@ -48,12 +56,6 @@
       .azul{
         color: #107fc9;
       }
-      html, body {
-        overscroll-behavior-y: contain;
-        -webkit-user-select: none;
-        -webkit-tap-highlight-color: transparent;
-        -webkit-touch-callout: none;
-    }
     </style>
 
     <link rel="manifest" href="manifest.json">
@@ -62,10 +64,10 @@
 
     <!-- iOS Web App-->
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="apple-touch-icon" href="{{ URL::asset('images/mv-blanco-144.png') }}">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ URL::asset('images/mv-blanco-144.png') }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ URL::asset('images/mv-blanco-144.png') }}">
-    <link rel="apple-touch-icon" sizes="167x167" href="{{ URL::asset('images/mv-blanco-144.png') }}">
+    <link rel="apple-touch-icon" href="{{ URL::asset('images/mv-blanco-144_old.png') }}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ URL::asset('images/mv-blanco-144_old.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ URL::asset('images/mv-blanco-144_old.png') }}">
+    <link rel="apple-touch-icon" sizes="167x167" href="{{ URL::asset('images/mv-blanco-144_old.png') }}">
 
     <!-- iPhone X (1125px x 2436px) -->
     <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" href="{{ URL::asset('images/splash/1278x2732.png') }}">
