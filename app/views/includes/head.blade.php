@@ -67,8 +67,17 @@
     <link rel="apple-touch-icon" sizes="180x180" href="{{ URL::asset('images/mv-blanco-144.png') }}">
     <link rel="apple-touch-icon" sizes="167x167" href="{{ URL::asset('images/mv-blanco-144.png') }}">
 
+    <!-- iPhone X (1125px x 2436px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" href="{{ URL::asset('images/splash/1278x2732.png') }}">
+    <!-- iPhone 8, 7, 6s, 6 (750px x 1334px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="{{ URL::asset('images/splash/750x1334.png') }}">
+    <!-- iPhone 8 Plus, 7 Plus, 6s Plus, 6 Plus (1242px x 2208px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3)" href="{{ URL::asset('images/splash/1242x2208.png') }}">
+    <!-- iPhone 5 (640px x 1136px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="{{ URL::asset('images/splash/750x1334.png') }}">
+
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="Twittor!">
+    <meta name="apple-mobile-web-app-title" content="MédicaVial">
 
 
     <!-- OG Protocol -->
