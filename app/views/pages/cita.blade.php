@@ -98,7 +98,7 @@
 
                         <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 contact2-page-form">
                             <section class="color-7" id="btn-click">
-                              <button type="button" class="btn btn-danger btn-disabled btn-xs avisoSwitch" style="color: #fff !important;">
+                              <button type="button" class="btn btn-danger disabled btn-xs avisoSwitch" style="color: #fff !important;">
                                 Sin conexión <i class="fa fa-spinner fa-spin"></i>
                               </button>
             					<button class="icon-mail btn2-st2 btn-7 btn-7b elementSwitch" id="botonCita" data-text-loading="Verificando Información" type="submit">Solicitar Cita</button>

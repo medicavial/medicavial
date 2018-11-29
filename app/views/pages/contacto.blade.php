@@ -134,7 +134,7 @@
 			                            <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12">
 
 				                            <section class="color-7">
-                                      <button type="button" class="btn btn-danger btn-disabled btn-xs avisoSwitch btn-block" style="color: #fff !important;">
+                                      <button type="button" class="btn btn-danger disabled btn-xs avisoSwitch btn-block" style="color: #fff !important;">
                                         Sin conexión <i class="fa fa-spinner fa-spin"></i>
                                       </button>
 				                				<button class="icon-mail btn2-st2 btn-7 btn-7b elementSwitch" id="botonContacto" data-loading-text="Enviando..." type="submit">Enviar</button>
