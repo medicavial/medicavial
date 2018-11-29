@@ -1,12 +1,21 @@
 @extends('layouts.default')
 
 @section('titulo')
-    MedicaVial - Contacto
+    MédicaVial - Membresía
 @stop
 
 @section('descripcion')
-    Somos MedicaVial
+    ¡Obtén grandes beneficios al tramitar tu membresía!
 @stop
+
+@section('enlace')
+    {{ URL::route('membresia') }}
+@stop
+
+@section('imgEnlace')
+    {{ asset('images/og-images/membresia.jpg') }}
+@stop
+
 
 @section('content')
 

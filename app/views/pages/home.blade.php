@@ -1,12 +1,21 @@
 @extends('layouts.default')
 
 @section('titulo')
-    MedicaVial
+    MédicaVial
 @stop
 
 @section('descripcion')
-    Somos MedicaVial
+    Especialistas en huesos y articulaciones.
 @stop
+
+@section('enlace')
+    {{ URL::route('inicio') }}
+@stop
+
+@section('imgEnlace')
+    {{ asset('images/og-images/inicio.jpg') }}
+@stop
+
 
 @section('content')
 	<div class="container full-width-container ihome-banner">
@@ -55,7 +64,7 @@
 	                    data-easing="Back.easeOut"
 	                    data-endspeed="400"
 	                    data-endeasing="Power1.easeIn"
-	                    >Nuestra Membresia es para ti
+	                    >Nuestra Membresía es para ti
 	                </div>
 
 	                <!-- LAYER NR. 8 -->
@@ -69,7 +78,7 @@
 	                    data-easing="Back.easeOut"
 	                    data-endspeed="400"
 	                    data-endeasing="Power1.easeIn"
-	                    ><a href="{{ URL::route('membresia') }}">Obtener Membresia</a></div>
+	                    ><a href="{{ URL::route('membresia') }}">Obtener Membresía</a></div>
 
 	            </li>
 
@@ -104,7 +113,7 @@
 	                    data-easing="Back.easeOut"
 	                    data-endspeed="400"
 	                    data-endeasing="Power1.easeIn"
-	                    >Lider en tratamiento<br>y cuidado de lesiones!
+	                    >¡Lider en tratamiento<br>y cuidado de lesiones!
 	                </div>
 
 
@@ -487,7 +496,7 @@
                         data-easing="Back.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        >Clinicas MedicaVial
+                        >Clinicas MédicaVial
                     </div>
 
 
@@ -501,7 +510,7 @@
                         data-easing="Back.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        >Nuestra red medica <br> Siempre cerca de ti.
+                        >Nuestra red médica <br> Siempre cerca de ti.
                     </div>
 
 
@@ -515,7 +524,7 @@
                         data-easing="Back.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        >Interlomas, Roma Condesa, Perisur, Satelite, Monterrey<br> Puebla, Chihuahua, Veracruz, Merida, San Luis.</div>
+                        >Interlomas, Roma Condesa, Perisur, Satélite, Monterrey<br> Puebla, Chihuahua, Veracruz, Mérida, San Luis.</div>
 
 
                     <!-- LAYER NR. 8 -->
@@ -529,7 +538,7 @@
                         data-easing="Back.easeOut"
                         data-endspeed="400"
                         data-endeasing="Power1.easeIn"
-                        ><a href="{{ URL::route('clinicas') }}">Nuestras Clinicas</a>
+                        ><a href="{{ URL::route('clinicas') }}">Nuestras Clínicas</a>
                     </div>
 
 
@@ -549,7 +558,7 @@
           <div class="col-sm-6 col-xs-12 col-md-3 col-lg-3">
   					<div class="icon-box-3 wow fadeInDown" data-wow-delay="0.6s" data-wow-offset="150">
   						<div class="icon-boxwrap2"><i data-icon="\e609" class="icon-hospital2 icon-box-back2"></i></div>
-  						<div class="icon-box2-title">Nuestras Clinicas</div>
+  						<div class="icon-box2-title">Nuestras Clínicas</div>
   						<p>Servicio 24 Hrs.</p>
   						<div class="iconbox-readmore"><a href="{{ URL::route('clinicas') }}">Más Info.</a></div>
   					</div>
@@ -570,7 +579,7 @@
   					<div class="icon-box-3 wow fadeInUp" data-wow-delay="1.2s" data-wow-offset="150">
   						<div class="icon-boxwrap2"><i class="icon-stethoscope icon-box-back2"></i></div>
   						<div class="icon-box2-title">Nuestros Médicos</div>
-  						<p>Medicos especialistas certificados.</p>
+  						<p>Médicos especialistas certificados.</p>
   						<div class="iconbox-readmore"><a href="{{ URL::route('doctores') }}">Más Info.</a></div>
   					</div>
           </div>

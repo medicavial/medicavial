@@ -1,12 +1,21 @@
 @extends('layouts.default')
 
 @section('titulo')
-    MedicaVial - Contacto
+    MédicaVial - Contacto
 @stop
 
 @section('descripcion')
-    Somos MedicaVial
+    Puedes contactarnos por diferentes medios.
 @stop
+
+@section('enlace')
+    {{ URL::route('contacto') }}
+@stop
+
+@section('imgEnlace')
+    {{ asset('images/og-images/nosotros.jpg') }}
+@stop
+
 
 @section('content')
 

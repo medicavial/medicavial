@@ -1,12 +1,21 @@
 @extends('layouts.default')
 
 @section('titulo')
-    MedicaVial - Nuestras Clinicas
+    MédicaVial - Nuestras Clinicas
 @stop
 
 @section('descripcion')
-    Somos MedicaVial
+    Conoce nuestras clínicas.
 @stop
+
+@section('enlace')
+    {{ URL::route('clinicas') }}
+@stop
+
+@section('imgEnlace')
+    {{ asset('images/og-images/clinicas.jpg') }}
+@stop
+
 
 @section('content')
 

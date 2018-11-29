@@ -1,12 +1,21 @@
 @extends('layouts.default')
 
 @section('titulo')
-    MedicaVial - Quienes Somos
+    MédicaVial - Quienes Somos
 @stop
 
 @section('descripcion')
-    Somos MedicaVial
+    Información acerca de nosotros.
 @stop
+
+@section('enlace')
+    {{ URL::route('nosotros') }}
+@stop
+
+@section('imgEnlace')
+    {{ asset('images/og-images/nosotros.jpg') }}
+@stop
+
 
 @section('content')
 

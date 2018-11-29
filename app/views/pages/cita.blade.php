@@ -1,12 +1,21 @@
 @extends('layouts.default')
 
 @section('titulo')
-    MedicaVial - Agenda tu cita
+    MédicaVial - Agenda tu cita
 @stop
 
 @section('descripcion')
-    Somos MedicaVial
+    Para tu comodidad puedes agendar una cita y con gusto te atenderemos en la fecha y hora solicitada.
 @stop
+
+@section('enlace')
+    {{ URL::route('cita') }}
+@stop
+
+@section('imgEnlace')
+    {{ asset('images/og-images/cita.jpg') }}
+@stop
+
 
 @section('content')
 

@@ -69,3 +69,20 @@
 
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Twittor!">
+
+
+    <!-- OG Protocol -->
+    <meta property="og:title" content="@yield('titulo')" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="@yield('descripcion')" />
+    <meta property="og:url" content="@yield('enlace')" />
+    <meta property="og:image" content="@yield('imgEnlace')" />
+
+    <!-- twitter card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@MedicaVial" />
+    <meta name="twitter:creator" content="@samus_rr" />
+    <meta property="og:url" content="@yield('enlace')" />
+    <meta property="og:title" content="@yield('titulo')" />
+    <meta property="og:description" content="@yield('descripcion')" />
+    <meta property="og:image" content="@yield('imgEnlace')" />

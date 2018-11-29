@@ -1,38 +1,47 @@
 @extends('layouts.default')
 
 @section('titulo')
-    MedicaVial - Doctores 
+    MédicaVial - Nuestros Médicos
 @stop
 
 @section('descripcion')
-    Somos MedicaVial
+    Médicos especialistas altamente capacitados.
 @stop
+
+@section('enlace')
+    {{ URL::route('doctores') }}
+@stop
+
+@section('imgEnlace')
+    {{ asset('images/og-images/medicos.jpg') }}
+@stop
+
 
 @section('content')
 
-	<div id="doctor-second-style">	
+	<div id="doctor-second-style">
     <!--Mid Content Start-->
-    
-    
+
+
 	    <div class="about-intro-wrap pull-left">
-	     
+
 		    <div class="bread-crumb-wrap ibc-wrap-4">
 		    	<div class="container">
 		         	<div class="inner-page-title-wrap col-xs-12 col-md-12 col-sm-12">
 		            	<div class="bread-heading"><h1>Nuestros Médicos</h1></div>
 		            </div>
 		        </div>
-		    </div> 
+		    </div>
 
 		    <div class="container">
-         		
-				
+
+
 				<div class="row">
 
 					<h2>MV Perisur</h2>
 
 					<hr>
-						
+
 					<div class="doctor-box col-md-6 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-delay="0.5s" data-wow-offset="200">
 						<div class="col-md-4 col-sm-12 col-xs-12 no-pad">
 								<div class="zoom-wrap">
@@ -88,7 +97,7 @@
                         	</ul>
 						</div>
 					</div>
-  
+
           		</div>
 
 
@@ -97,7 +106,7 @@
 					<h2>MV Roma</h2>
 
 					<hr>
-						
+
 					<div class="doctor-box col-md-6 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-delay="0.5s" data-wow-offset="200">
 						<div class="col-md-4 col-sm-12 col-xs-12 no-pad">
 								<div class="zoom-wrap">
@@ -153,7 +162,7 @@
                         	</ul>
 						</div>
 					</div>
-  
+
           		</div>
 
           		<div class="row">
@@ -161,7 +170,7 @@
 					<h2>MV Interlomas</h2>
 
 					<hr>
-						
+
 					<div class="doctor-box col-md-6 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-delay="0.5s" data-wow-offset="200">
 						<div class="col-md-4 col-sm-12 col-xs-12 no-pad">
 								<div class="zoom-wrap">
@@ -217,7 +226,7 @@
                         	</ul>
 						</div>
 					</div>
-  
+
           		</div>
 
           		<div class="row">
@@ -225,7 +234,7 @@
 					<h2>MV Satélite</h2>
 
 					<hr>
-						
+
 					<div class="doctor-box col-md-6 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-delay="0.5s" data-wow-offset="200">
 						<div class="col-md-4 col-sm-12 col-xs-12 no-pad">
 								<div class="zoom-wrap">
@@ -281,7 +290,7 @@
                         	</ul>
 						</div>
 					</div>
-  
+
           		</div>
 
           		<div class="row">
@@ -289,7 +298,7 @@
 					<h2>MV Puebla</h2>
 
 					<hr>
-						
+
 					<div class="doctor-box col-md-6 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-delay="0.5s" data-wow-offset="200">
 						<div class="col-md-4 col-sm-12 col-xs-12 no-pad">
 								<div class="zoom-wrap">
@@ -345,7 +354,7 @@
                         	</ul>
 						</div>
 					</div>
-  
+
           		</div>
 
           		<div class="row">
@@ -353,7 +362,7 @@
 					<h2>MV Monterrey</h2>
 
 					<hr>
-						
+
 					<div class="doctor-box col-md-6 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-delay="0.5s" data-wow-offset="200">
 						<div class="col-md-4 col-sm-12 col-xs-12 no-pad">
 								<div class="zoom-wrap">
@@ -409,15 +418,15 @@
                         	</ul>
 						</div>
 					</div>
-  
+
           		</div>
 
           		<div class="row">
 
-					<h2>MV Merida</h2>
+					<h2>MV Mérida</h2>
 
 					<hr>
-						
+
 					<div class="doctor-box col-md-6 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-delay="0.5s" data-wow-offset="200">
 						<div class="col-md-4 col-sm-12 col-xs-12 no-pad">
 								<div class="zoom-wrap">
@@ -473,15 +482,15 @@
                         	</ul>
 						</div>
 					</div>
-  
+
           		</div>
 
           		<div class="row">
 
-					<h2>MV SLP</h2>
+					<h2>MV San Luis</h2>
 
 					<hr>
-						
+
 					<div class="doctor-box col-md-6 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-delay="0.5s" data-wow-offset="200">
 						<div class="col-md-4 col-sm-12 col-xs-12 no-pad">
 								<div class="zoom-wrap">
@@ -537,7 +546,7 @@
                         	</ul>
 						</div>
 					</div>
-  
+
           		</div>
 
           		<div class="row">
@@ -545,7 +554,7 @@
 					<h2>MV Chihuahua</h2>
 
 					<hr>
-						
+
 					<div class="doctor-box col-md-6 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-delay="0.5s" data-wow-offset="200">
 						<div class="col-md-4 col-sm-12 col-xs-12 no-pad">
 								<div class="zoom-wrap">
@@ -601,7 +610,7 @@
                         	</ul>
 						</div>
 					</div>
-  
+
           		</div>
 
           		<div class="row">
@@ -609,7 +618,7 @@
 					<h2>MV Veracruz</h2>
 
 					<hr>
-						
+
 					<div class="doctor-box col-md-6 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-delay="0.5s" data-wow-offset="200">
 						<div class="col-md-4 col-sm-12 col-xs-12 no-pad">
 								<div class="zoom-wrap">
@@ -665,14 +674,14 @@
                         	</ul>
 						</div>
 					</div>
-  
+
           		</div>
 
 	        </div>
-			
+
 	    </div>
-    
-    </div> 
-	
-	 
+
+    </div>
+
+
 @stop
