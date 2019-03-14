@@ -80,7 +80,8 @@ Route::get('/facturacion', array('as' => 'facturacion', function()
 
 Route::get('/membresia', array('as' => 'membresia', function()
 {
-    return View::make('pages.membresia');
+    return Redirect::route('inicio');
+    // return View::make('pages.membresia');
     
 }));
 

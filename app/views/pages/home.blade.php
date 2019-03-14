@@ -77,8 +77,9 @@
 	                    data-start="2600"
 	                    data-easing="Back.easeOut"
 	                    data-endspeed="400"
-	                    data-endeasing="Power1.easeIn"
-	                    ><a href="{{ URL::route('membresia') }}">Obtener Membresía</a></div>
+	                    data-endeasing="Power1.easeIn">
+                    <!-- <a href="{{ URL::route('membresia') }}">Obtener Membresía</a> -->
+                  </div>
 
 	            </li>
 
