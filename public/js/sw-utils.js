@@ -22,6 +22,12 @@ function actualizaCacheStatico( staticCache, req, APP_SHELL_INMUTABLE ) {
 
     } else {
         // console.log('actualizando', req.url );
+        if( req.url.includes('/undefined') ){
+            return fetch('/images/no-img.jpg').then(res => {
+                return actualizaCacheDinamico(staticCache, req, res);
+            });
+        }
+
         return fetch( req ).then( res => {
                     return actualizaCacheDinamico( staticCache, req, res );
                 });

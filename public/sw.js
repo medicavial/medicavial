@@ -9,13 +9,14 @@ importScripts('js/sw-utils.js');
 
 
 // DECLARAMOS LOS NOMBRES QUE GUARDARÁN CACHÉ
-const STATIC_CACHE    = 'static-v2';
-const DYNAMIC_CACHE   = 'dynamic-v2';
-const INMUTABLE_CACHE = 'inmutable-v2';
+// el inmutable no debería cambiar nunca
+const STATIC_CACHE    = 'static-v6';
+const DYNAMIC_CACHE   = 'dynamic-v6';
+const INMUTABLE_CACHE = 'inmutable-v6';
 
+// 'membresia',
 const APP_SHELL = [
     '/',
-    // 'membresia',
     'clinicas',
     'cita',
     'contacto',
@@ -37,11 +38,9 @@ const APP_SHELL = [
     'images/bone2.png',
     'images/up-scroll.png',
     'images/new-slider/1.png',
-    'images/new-slider/s1-bg.jpg',
     'images/new-slider/membresia.png',
     'images/new-slider/24hrs.png',
     'images/new-slider/324hrs.png',
-    'images/new-slider/s2-bg.jpg',
     'images/new-slider/s2-img2.png',
     'images/new-slider/s3-ic9.png',
     'images/new-slider/s3-ic16.png',
@@ -77,6 +76,7 @@ const APP_SHELL = [
     'images/clinicas/satelite.jpg',
     'images/clinicas/roma.jpg',
     'images/clinicas/interlomas.jpg',
+    'images/clinicas/no-img.jpg',
     'images/ov-plus.png',
     'images/membresia.png',
     'images/mydoc-dummy-1.jpg',
@@ -147,7 +147,8 @@ self.addEventListener('install', e => {
 
 // ACTIVACIÓN DEL SW
 self.addEventListener('activate', e => {
-    console.info('SW by Samuel Ramirez http://sramirez.hol.es');
+    console.info('SW by Samuel Ramirez https://www.samuel-ramirez.com');
+
     const respuesta = caches.keys().then( keys => {
 
         keys.forEach( key => {
@@ -158,6 +159,11 @@ self.addEventListener('activate', e => {
 
             if ( key !== DYNAMIC_CACHE && key.includes('dynamic') ) {
                   return caches.delete(key);
+            }
+
+            // el inmutable no debería cambiar nunca
+            if (key !== INMUTABLE_CACHE && key.includes('inmutable')) {
+                return caches.delete(key);
             }
         });
     });
@@ -172,7 +178,6 @@ self.addEventListener('fetch', e => {
 
   // VERIFICAMOS SI EL REQUEST ESTÁ EN EL CACHE
   respuesta = caches.match( e.request ).then( res => {
-
       if ( res ) {
           actualizaCacheStatico( STATIC_CACHE, e.request, APP_SHELL_INMUTABLE );
           return res;
@@ -184,8 +189,14 @@ self.addEventListener('fetch', e => {
             });
           }
 
+          if (e.request.url.includes('/undefined')) {
+              return fetch('/images/no-img.jpg').then(newRes => {
+                  return actualizaCacheDinamico(DYNAMIC_CACHE, e.request, newRes);
+              });
+          }
+
+
           return fetch( e.request ).then( newRes => {
-              // if (e.request.url === 'http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js') console.log(e.request);
               return actualizaCacheDinamico( DYNAMIC_CACHE, e.request, newRes );
           });
       }

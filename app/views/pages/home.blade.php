@@ -23,10 +23,11 @@
 
 	        <ul>
 				<!-- memebresia -->
-	        	<li data-transition="papercut" data-slotamount="7">
+            <li data-transition="papercut" data-slotamount="7" class="bg-mygrad-blue">
 
 	                <!-- MAIN IMAGE -->
-	                <img src="images/new-slider/s1-bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                  <!-- <div class="bg-mygrad-blue"></div> -->
+	                <!-- <img src="images/new-slider/s1-bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"> -->
 	                <!-- LAYERS -->
 	                <!-- LAYER NR. 1 -->
 	                <div class="tp-caption lfb skewtoright imed-sl1"
@@ -84,10 +85,10 @@
 	            </li>
 
 	            <!-- lider -->
-	        	<li data-transition="papercut" data-slotamount="7">
+	        	<li data-transition="papercut" data-slotamount="7" class="bg-mygrad-gray">
 
 	                <!-- MAIN IMAGE -->
-	                <img src="images/new-slider/s2-bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+	                <!-- <img src="images/new-slider/s2-bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"> -->
 	                <!-- LAYERS -->
 	                <!-- LAYER NR. 1 -->
 	                <div class="tp-caption lfb stl imed-sl1"
@@ -135,10 +136,10 @@
 	            </li>
 
 	            <!-- Formatos -->
-	            <li data-transition="papercut" data-slotamount="7">
+	            <li data-transition="papercut" data-slotamount="7" class="bg-mygrad-blue">
 
                     <!-- MAIN IMAGE -->
-                    <img src="images/new-slider/s1-bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                    <!-- <img src="images/new-slider/s1-bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"> -->
                     <!-- LAYERS -->
 
                     <div class="tp-caption lft skewtoright imed-sl1"
@@ -224,10 +225,10 @@
                 </li>
 
 				<!-- iconos -->
-                <li data-transition="papercut" data-slotamount="7">
+                <li data-transition="papercut" data-slotamount="7" class="bg-mygrad-gray">
 
                     <!-- MAIN IMAGE -->
-                    <img src="images/new-slider/s2-bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                    <!-- <img src="images/new-slider/s2-bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"> -->
                     <!-- LAYERS -->
 
                     <!-- LAYER NR. 2 -->
@@ -452,10 +453,10 @@
                 </li>
 
                 <!-- clinicas -->
-	        	<li data-transition="papercut" data-slotamount="7">
+	        	<li data-transition="papercut" data-slotamount="7" class="bg-mygrad-blue">
 
                     <!-- MAIN IMAGE -->
-                    <img src="images/new-slider/s1-bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                    <!-- <img src="images/new-slider/s1-bg.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat"> -->
                     <!-- LAYERS -->
 
                     <!-- LAYER NR. 2 -->

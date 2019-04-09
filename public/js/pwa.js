@@ -6,7 +6,10 @@ var swReg;
 if ( navigator.serviceWorker ) {
 
     if ( url.includes('localhost') ) {
-      console.warn('DEVELOP MODE: RUN php artisan serve');
+        if (!url.includes('localhost:')) {
+            console.warn('DEVELOP MODE: RUN php artisan serve');
+            alert('DEVELOP MODE: RUN php artisan serve');
+        }
         swLocation = '/sw.js';
     }
 

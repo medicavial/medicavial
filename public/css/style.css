@@ -223,8 +223,8 @@
 .somos{
 	background: #F8F8F8;
 	background-image: url('../images/bone2.png') !important;
-  background-position: bottom center;
-  background-repeat: no-repeat;
+  	background-position: bottom center;
+  	background-repeat: no-repeat;
 	font-size: 16px;
 }
 
@@ -250,4 +250,28 @@ color: #bcbec0;
 	.topbar-info{
 		display: none !important;
 	}
+}
+
+
+.bg-mygrad-blue{
+	background: #459ccc; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #459ccc 0%, #0082cd 74%, #107fc9 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #459ccc 0%,#0082cd 74%,#107fc9 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #459ccc 0%,#0082cd 74%,#107fc9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#459ccc', endColorstr='#107fc9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	color: white;
+	font-size: 20px;
+}
+
+
+.bg-mygrad-gray{
+	background: #EEEEEE; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #EEEEEE 0%, #D3D3D3 74%, #d1d1d1 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #EEEEEE 0%,#D3D3D3 74%,#d1d1d1 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #EEEEEE 0%,#EEEEEE 74%,#D3D3D3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EEEEEE', endColorstr='#d1d1d1',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	color: white;
+	font-size: 20px;
 }
